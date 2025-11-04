@@ -154,7 +154,7 @@ El proyecto debe evidenciar la **autonomía técnica**, la **planificación efec
 - Revisión del repositorio y commits.  
 - Memoria técnica individual y documentación de usuario.  
 - Presentación y defensa oral.  
-- Autoevaluación y coevaluación.  
+<!-- - Autoevaluación y coevaluación.   -->
 - Rúbrica de producto final.  
 
 ---
