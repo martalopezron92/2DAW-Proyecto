@@ -26,73 +26,101 @@ El proyecto debe evidenciar la **autonomía técnica**, la **planificación efec
 
 ## 🧠 Resultados de Aprendizaje (RA) y módulos implicados
 
-### **RA1. Analiza y diseña la solución técnica de la aplicación web.**
-**Módulos implicados:** PROG, LMSGI, BBDD, DWES, DWEC, DIW, SI, EDE  
+### **RA1. Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que las puedan satisfacer.**
+**Módulos implicados:** PROG, LMSGI, SI, BBDD, DWES, DWEC, DIW, DAW, EDE  
 **Criterios de evaluación:**
-- Identifica correctamente los requisitos funcionales y no funcionales.  
-- Elabora la arquitectura general del sistema (cliente-servidor, MVC, API REST).  
-- Diseña el modelo de datos (E/R, tablas, relaciones, claves).  
-- Representa la estructura del sistema mediante diagramas y documentación técnica.  
-- Selecciona lenguajes, frameworks y tecnologías adecuadas.  
-- Justifica las decisiones técnicas y de diseño adoptadas.
+a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio que ofrecen.  
+b) Se han caracterizado las empresas tipo indicando la estructura organizativa y las funciones de cada departamento.  
+c) Se han identificado las necesidades más demandadas a las empresas.  
+d) Se han valorado las oportunidades de negocio previsibles en el sector.  
+e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas.  
+f) Se han determinado las características específicas requeridas al proyecto.  
+g) Se han determinado las obligaciones fiscales, laborales y de prevención de riesgos y sus condiciones de aplicación.  
+h) Se han identificado posibles ayudas o subvenciones para la incorporación de nuevas tecnologías de producción o de servicio que se proponen.  
+i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto.
+
+**Relación con módulos DAW:**
+- **PROG + DWES + DWEC:** Análisis de necesidades tecnológicas del sector (aplicaciones web, APIs, sistemas de gestión)
+- **BBDD:** Identificación de necesidades de almacenamiento y gestión de datos empresariales
+- **LMSGI:** Análisis de estándares web y formatos de intercambio de información del sector
+- **DIW:** Estudio de tendencias UX/UI y necesidades de diseño en aplicaciones empresariales
+- **SI + DAW:** Evaluación de infraestructuras tecnológicas y necesidades de despliegue del sector
+- **EDE:** Metodologías de desarrollo y herramientas demandadas por las empresas
 
 ---
 
-### **RA2. Desarrolla la aplicación web aplicando principios de calidad y buenas prácticas.**
-**Módulos implicados:** PROG, DWES, DWEC, BBDD, EDE  
+### **RA2. Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando las fases que lo componen.**
+**Módulos implicados:** PROG, BBDD, DWES, DWEC, DIW, LMSGI, SI, DAW, EDE  
 **Criterios de evaluación:**
-- Implementa las funcionalidades planificadas respetando el diseño.  
-- Integra correctamente frontend, backend y base de datos.  
-- Utiliza adecuadamente control de versiones (Git/GitHub).  
-- Aplica principios de modularidad, reutilización y seguridad.  
-- Gestiona errores y excepciones.  
-- Documenta el código y las dependencias del proyecto.  
+a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto.  
+b) Se ha realizado el estudio de viabilidad técnica del mismo.  
+c) Se han identificado las fases o partes que componen el proyecto y su contenido.  
+d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance.  
+e) Se han previsto los recursos materiales y personales necesarios para realizarlo.  
+f) Se ha realizado el presupuesto económico correspondiente.  
+g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo.  
+h) Se ha definido y elaborado la documentación necesaria para su diseño.  
+i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto.
+
+**Relación con módulos DAW:**
+- **PROG:** Diseño de algoritmos, estructuras de datos y lógica de negocio de la aplicación
+- **BBDD:** Modelado E/R, normalización, diseño de consultas y optimización de rendimiento
+- **DWES:** Arquitectura servidor, APIs REST, autenticación, seguridad backend
+- **DWEC:** Arquitectura cliente, frameworks frontend, interactividad y validaciones
+- **DIW:** Wireframes, mockups, prototipado, diseño responsive y accesibilidad
+- **LMSGI:** Especificaciones técnicas, documentos XML/JSON, estándares web
+- **SI:** Análisis de infraestructura, requerimientos hardware/software, redes
+- **DAW:** Estrategias de despliegue, entornos (desarrollo/testing/producción)
+- **EDE:** Metodologías ágiles, herramientas de gestión, control de versiones
 
 ---
 
-### **RA3. Diseña una interfaz web accesible, funcional y coherente.**
-**Módulos implicados:** LMSGI, DIW, DWEC  
+### **RA3. Planifica la ejecución del proyecto, determinando el plan de intervención y la documentación asociada.**
+**Módulos implicados:** PROG, DWES, DWEC, BBDD, DIW, EDE, DAW, SI  
 **Criterios de evaluación:**
-- Crea interfaces responsivas y coherentes con la imagen del proyecto.  
-- Aplica estándares de accesibilidad y usabilidad.  
-- Emplea lenguajes de marcas (HTML, XML) y hojas de estilo (CSS, SASS, frameworks).  
-- Implementa interactividad mediante eventos, validaciones y manipulación del DOM.  
-- Mejora la experiencia de usuario (UX/UI) y la consistencia visual.  
+a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución.  
+b) Se han determinado los recursos y la logística necesarios para cada actividad.  
+c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades.  
+d) Se han determinado los procedimientos de actuación o ejecución de las actividades.  
+e) Se han identificado los riesgos inherentes a la ejecución definiendo el plan de prevención de riesgos y los medios y equipos necesarios.  
+f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución.  
+g) Se ha hecho la valoración económica que da respuesta a las condiciones de la implementación.  
+h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución.
+
+**Relación con módulos DAW:**
+- **EDE:** Planificación de sprints, metodologías ágiles (Scrum), gestión de tareas y tiempo
+- **PROG + DWES + DWEC:** Secuenciación del desarrollo (backend primero, frontend después, integración)
+- **BBDD:** Planificación de migrations, seeders, estrategia de datos de prueba
+- **DIW:** Cronograma de diseño (wireframes → mockups → prototipos → implementación)
+- **SI:** Planificación de infraestructura, configuración de entornos de desarrollo
+- **DAW:** Estrategia de despliegue, configuración de CI/CD, automatización
+- **Gestión de riesgos:** Backup de código, control de versiones, testing automatizado
+- **Documentación:** Manuales técnicos, guías de instalación, documentación de APIs
 
 ---
 
-### **RA4. Gestiona y configura los recursos técnicos necesarios para el desarrollo y despliegue.**
-**Módulos implicados:** SI, DAW, EDE, DWES  
+### **RA4. Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados.**
+**Módulos implicados:** EDE, PROG, DWES, DWEC, BBDD, DIW, DAW, SI  
 **Criterios de evaluación:**
-- Configura el entorno de desarrollo y los servicios necesarios (servidores, BBDD, red).  
-- Gestiona dependencias y entornos virtuales.  
-- Automatiza tareas mediante scripts o herramientas de despliegue.  
-- Realiza copias de seguridad y restauraciones del proyecto.  
-- Despliega la aplicación en entornos de prueba y producción (hosting, cloud, Docker, etc.).  
-- Documenta el procedimiento de despliegue.
+a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones.  
+b) Se han definido los indicadores de calidad para realizar la evaluación.  
+c) Se ha definido el procedimiento para la evaluación de las incidencias que puedan presentarse durante la realización de las actividades, su posible solución y registro.  
+d) Se ha definido el procedimiento para gestionar los posibles cambios en los recursos y en las actividades, incluyendo el sistema de registro de los mismos.  
+e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto.  
+f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes y se han elaborado los documentos específicos.  
+g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de condiciones del proyecto cuando este existe.
 
----
-
-### **RA5. Prueba, valida y optimiza la aplicación web.**
-**Módulos implicados:** PROG, DWES, DWEC, BBDD, EDE  
-**Criterios de evaluación:**
-- Diseña y aplica un plan de pruebas (unitarias, de integración, funcionales y de rendimiento).  
-- Detecta, documenta y corrige errores en todas las capas del sistema.  
-- Evalúa la seguridad y estabilidad del proyecto.  
-- Mejora el rendimiento mediante optimización del código y consultas.  
-- Genera informes técnicos de validación y resultados.  
-
----
-
-### **RA6. Presenta, documenta y defiende el proyecto de manera profesional.**
-**Módulos implicados:** EDE, todos los anteriores  
-**Criterios de evaluación:**
-- Elabora una **memoria técnica completa** (análisis, diseño, desarrollo, pruebas, despliegue).  
-- Prepara un **manual de instalación y usuario**.  
-- Presenta y defiende el proyecto ante el equipo docente.  
-- Explica las decisiones técnicas y de diseño con claridad y rigor.  
-- Evalúa su propio trabajo y el del equipo.  
-- Muestra capacidad de innovación, organización y autonomía profesional.  
+**Relación con módulos DAW:**
+- **EDE:** Sistemas de control de versiones (Git), tracking de issues, métricas de desarrollo
+- **PROG:** Testing unitario, cobertura de código, métricas de calidad (complejidad ciclomática)
+- **DWES:** Logging de errores, monitorización de APIs, métricas de rendimiento backend
+- **DWEC:** Testing frontend, métricas UX, análisis de usabilidad, rendimiento cliente
+- **BBDD:** Monitorización de queries, optimización, logs de base de datos
+- **DIW:** Testing de accesibilidad, responsive design, validación W3C
+- **DAW:** Monitorización de despliegue, métricas de servidor, uptime, logs de aplicación
+- **SI:** Monitoring de infraestructura, alertas, backups automáticos
+- **Evaluación usuarios:** Encuestas de satisfacción, analytics web, feedback forms
+- **Documentación:** Reports automáticos, dashboards de métricas, informes de calidad  
 
 ---
 
@@ -130,14 +158,44 @@ El proyecto debe evidenciar la **autonomía técnica**, la **planificación efec
 
 | **Dimensión** | **Indicadores clave** | **Módulos implicados** | **Peso (%)** |
 |----------------|----------------------|-------------------------|--------------|
-| **Análisis y diseño (RA1)** | Define correctamente requisitos, modelo de datos y arquitectura. | PROG, LMSGI, BBDD, DWES, DIW | 15% |
-| **Desarrollo técnico (RA2)** | Implementa funcionalidades y aplica buenas prácticas. | PROG, DWES, DWEC, BBDD | 25% |
-| **Interfaz y usabilidad (RA3)** | Interfaz accesible, coherente y funcional. | LMSGI, DIW, DWEC | 15% |
-| **Gestión y despliegue (RA4)** | Configura entornos y despliega correctamente el proyecto. | SI, DAW, EDE | 15% |
-| **Pruebas y optimización (RA5)** | Pruebas exhaustivas, corrección de errores y mejora de rendimiento. | PROG, DWES, DWEC, BBDD | 15% |
-| **Documentación y defensa (RA6)** | Presenta, documenta y defiende con rigor técnico. | EDE, todos | 15% |
+| **Análisis del sector y necesidades (RA1)** | Identifica correctamente las necesidades del sector productivo y justifica el tipo de proyecto web requerido. | PROG, LMSGI, SI, BBDD, DWES, DWEC, DIW, DAW, EDE | 20% |
+| **Diseño del proyecto (RA2)** | Diseña todas las fases del proyecto incluyendo viabilidad técnica, recursos, presupuesto y documentación. | PROG, BBDD, DWES, DWEC, DIW, LMSGI, SI, DAW, EDE | 30% |
+| **Planificación de la ejecución (RA3)** | Planifica la ejecución secuenciando actividades, recursos, riesgos y documentación asociada. | PROG, DWES, DWEC, BBDD, DIW, EDE, DAW, SI | 25% |
+| **Control y seguimiento (RA4)** | Define procedimientos de seguimiento, indicadores de calidad y sistemas de evaluación continua. | EDE, PROG, DWES, DWEC, BBDD, DIW, DAW, SI | 25% |
 
 **Total:** 100%
+
+---
+
+## 📋 Contenidos orientativos adaptados a los RA
+
+### **1. Análisis del sector productivo web (RA1)**
+- Estudio de empresas del sector TIC: startups, consultoras, agencias digitales, departamentos IT
+- Identificación de necesidades tecnológicas: e-commerce, gestión empresarial, automatización
+- Oportunidades en tecnologías emergentes: Progressive Web Apps, APIs, cloud computing
+- Marco legal y fiscal en proyectos tecnológicos
+- Elaboración del briefing y alcance del proyecto web
+
+### **2. Diseño integral del proyecto web (RA2)**
+- Estudio de viabilidad técnica y económica de aplicaciones web
+- Arquitectura de aplicaciones web: frontend, backend, base de datos
+- Estimación de recursos: desarrollo, testing, despliegue, mantenimiento
+- Presupuestación de proyectos tecnológicos
+- Documentación técnica: especificaciones, diagramas, manuales
+
+### **3. Planificación de desarrollo web (RA3)**
+- Metodologías ágiles aplicadas al desarrollo web (Scrum, Kanban)
+- Secuenciación de tareas: análisis → diseño → desarrollo → testing → despliegue
+- Gestión de riesgos en proyectos web: backup, versionado, testing
+- Planificación de recursos humanos y técnicos
+- Cronogramas y hitos de entrega
+
+### **4. Control de calidad y seguimiento (RA4)**
+- Métricas de calidad en desarrollo web: cobertura de tests, rendimiento, accesibilidad
+- Herramientas de monitorización: Git analytics, server monitoring, user analytics
+- Gestión de incidencias y cambios en proyectos web
+- Evaluación continua con stakeholders y usuarios finales
+- Documentación de procesos y resultados
 
 ---
 
@@ -149,16 +207,75 @@ El proyecto debe evidenciar la **autonomía técnica**, la **planificación efec
 
 ---
 
-## 🧾 Instrumentos de evaluación
-- Entregas técnicas (análisis, diseño, código, pruebas, despliegue).  
-- Revisión del repositorio y commits.  
-- Memoria técnica individual y documentación de usuario.  
-- Presentación y defensa oral.  
-- Rúbrica de producto final.  
+## 🧾 Instrumentos de evaluación por RA
+
+### **RA1 - Análisis del sector productivo**
+- **Estudio de mercado:** Informe de análisis del sector TIC y necesidades empresariales
+- **Justificación del proyecto:** Documento que relaciona necesidades detectadas con la solución propuesta
+- **Marco legal y fiscal:** Análisis de obligaciones y ayudas/subvenciones aplicables
+
+### **RA2 - Diseño del proyecto**
+- **Documentación técnica:** Especificaciones, arquitectura, diagramas E/R, wireframes
+- **Estudio de viabilidad:** Análisis técnico y económico del proyecto
+- **Presupuesto detallado:** Costes de desarrollo, infraestructura y mantenimiento
+- **Planificación inicial:** Fases, objetivos, recursos y cronograma
+
+### **RA3 - Planificación de ejecución**
+- **Plan de proyecto:** Metodología ágil, sprints, asignación de tareas
+- **Gestión de riesgos:** Identificación de riesgos técnicos y plan de contingencia
+- **Cronograma detallado:** Secuenciación de actividades con recursos y tiempos
+- **Documentación de procesos:** Procedimientos de desarrollo y control de calidad
+
+### **RA4 - Control y seguimiento**
+- **Sistema de métricas:** Indicadores de calidad, rendimiento y progreso
+- **Herramientas de seguimiento:** GitHub Projects, testing automatizado, monitoring
+- **Gestión de cambios:** Registro de modificaciones y control de versiones
+- **Evaluación continua:** Reports de progreso, feedback de usuarios, mejoras implementadas
+
+---
+
+## 🧩 Estrategia metodológica
+
+### **Metodología de Gestión de Proyectos Reales**
+El módulo adopta una **metodología de gestión de proyectos profesional** que simula entornos empresariales reales:
+
+- **Fase 1 (RA1):** Investigación de mercado y análisis de oportunidades (similando consultorías de negocio)
+- **Fase 2 (RA2):** Diseño y especificación técnica (simulando equipos de arquitectura software)
+- **Fase 3 (RA3):** Planificación ágil con metodología Scrum (simulando gestión de proyectos IT)
+- **Fase 4 (RA4):** Implementación con control continuo (simulando equipos de desarrollo profesional)
+
+### **Herramientas de Trabajo Profesional**
+- **Análisis de mercado:** Herramientas de investigación online, encuestas, análisis competencia
+- **Gestión de proyecto:** GitHub Projects, Trello, Jira, metodologías ágiles
+- **Documentación:** Markdown, diagramas UML, documentación de APIs
+- **Control de calidad:** Git flow, testing automatizado, code review, métricas de calidad
 
 ---
 
 ## 💬 Observaciones finales
-El módulo **Proyecto Intermodular** constituye el **culmen formativo del ciclo DAW**, permitiendo al alumnado demostrar su competencia profesional completa: planificar, desarrollar, probar, desplegar y presentar una aplicación web de calidad, aplicando los saberes adquiridos en todos los módulos técnicos.
+
+El módulo **Proyecto Intermodular** constituye la **culminación práctica del ciclo DAW**, donde el alumnado demuestra su capacidad para:
+
+### **🎯 Competencias Profesionales Clave:**
+- **Análisis de negocio:** Capacidad para identificar oportunidades tecnológicas en empresas reales
+- **Gestión de proyectos:** Planificación, ejecución y control de proyectos web complejos
+- **Liderazgo técnico:** Toma de decisiones arquitectónicas y tecnológicas fundamentadas
+- **Calidad profesional:** Aplicación de estándares y buenas prácticas de la industria
+
+### **🌐 Orientación al Sector Productivo:**
+El enfoque del módulo está **directamente orientado al mercado laboral**, preparando al alumnado para:
+- **Consultorías tecnológicas:** Análisis de necesidades y propuesta de soluciones
+- **Startups y empresas:** Desarrollo de productos web desde la concepción hasta el lanzamiento
+- **Departamentos IT:** Gestión de proyectos internos de digitalización empresarial
+- **Freelancing:** Capacidad para gestionar proyectos web de forma autónoma
+
+### **📈 Valor Profesional:**
+Al finalizar el módulo, el estudiante habrá desarrollado un **portfolio profesional completo** que incluye:
+- Capacidad de análisis de mercado y detección de oportunidades
+- Experiencia en gestión completa de proyectos web
+- Dominio de herramientas y metodologías profesionales
+- Documentación técnica de calidad empresarial
+
+Este enfoque garantiza que los egresados del ciclo DAW están **preparados para incorporarse inmediatamente** al sector productivo con competencias reales de gestión y desarrollo de proyectos web.
 
 ---

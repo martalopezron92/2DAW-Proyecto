@@ -23,6 +23,66 @@
 
 ---
 
+## 🎯 **Resultados de Aprendizaje (RA) y Criterios de Evaluación**
+
+### **RA1. Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que las puedan satisfacer.**
+
+**Criterios de evaluación:**
+a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio que ofrecen.  
+b) Se han caracterizado las empresas tipo indicando la estructura organizativa y las funciones de cada departamento.  
+c) Se han identificado las necesidades más demandadas a las empresas.  
+d) Se han valorado las oportunidades de negocio previsibles en el sector.  
+e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas.  
+f) Se han determinado las características específicas requeridas al proyecto.  
+g) Se han determinado las obligaciones fiscales, laborales y de prevención de riesgos y sus condiciones de aplicación.  
+h) Se han identificado posibles ayudas o subvenciones para la incorporación de nuevas tecnologías de producción o de servicio que se proponen.  
+i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto.
+
+---
+
+### **RA2. Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando las fases que lo componen.**
+
+**Criterios de evaluación:**
+a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto.  
+b) Se ha realizado el estudio de viabilidad técnica del mismo.  
+c) Se han identificado las fases o partes que componen el proyecto y su contenido.  
+d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance.  
+e) Se han previsto los recursos materiales y personales necesarios para realizarlo.  
+f) Se ha realizado el presupuesto económico correspondiente.  
+g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo.  
+h) Se ha definido y elaborado la documentación necesaria para su diseño.  
+i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto.
+
+
+---
+
+### **RA3. Planifica la ejecución del proyecto, determinando el plan de intervención y la documentación asociada.**
+
+**Criterios de evaluación:**
+a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución.  
+b) Se han determinado los recursos y la logística necesarios para cada actividad.  
+c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades.  
+d) Se han determinado los procedimientos de actuación o ejecución de las actividades.  
+e) Se han identificado los riesgos inherentes a la ejecución definiendo el plan de prevención de riesgos y los medios y equipos necesarios.  
+f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución.  
+g) Se ha hecho la valoración económica que da respuesta a las condiciones de la implementación.  
+h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución.
+
+---
+
+### **RA4. Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados.**
+
+**Criterios de evaluación:**
+a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones.  
+b) Se han definido los indicadores de calidad para realizar la evaluación.  
+c) Se ha definido el procedimiento para la evaluación de las incidencias que puedan presentarse durante la realización de las actividades, su posible solución y registro.  
+d) Se ha definido el procedimiento para gestionar los posibles cambios en los recursos y en las actividades, incluyendo el sistema de registro de los mismos.  
+e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto.  
+f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes y se han elaborado los documentos específicos.  
+g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de condiciones del proyecto cuando este existe.
+
+---
+
 ## Proyecto 1 – TaskManager Pro
 
 **Descripción:** Sistema web para gestión de tareas y proyectos en equipos pequeños, con funcionalidades básicas de asignación, seguimiento de estado y comentarios colaborativos.
@@ -84,17 +144,17 @@
 
 ### 📊 Relación Sprints con RA y Criterios de Evaluación - TaskManager Pro
 
-| Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
-|--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1, RA3 | Análisis requisitos, diseño interfaz, maquetación | Wireframes, HTML/CSS estático |
-| **Sprint 2** | RA3, RA2 | Interactividad frontend, manipulación DOM | JavaScript funcional, simulación datos |
-| **Sprint 3** | RA2, RA4 | Desarrollo backend básico, gestión BD | CRUD PHP, conexión MySQL |
-| **Sprint 4** | RA2, RA1 | Migración Laravel, arquitectura MVC | Estructura Laravel, rutas y vistas |
-| **Sprint 5** | RA2, RA5 | Modelos ORM, validaciones | Sistema Eloquent, calidad código |
-| **Sprint 6** | RA2, RA4 | Autenticación, funcionalidades avanzadas | Auth Laravel, features completas |
-| **Sprint 7** | RA3, RA5 | Optimización UX, integración AJAX | Interfaz pulida, experiencia usuario |
-| **Sprint 8** | RA5 | Testing, debugging, calidad código | Tests implementados, bugs corregidos |
-| **Sprint 9** | RA4, RA6 | Despliegue, documentación técnica | App desplegada, documentación completa |
+| Sprint | RA Principal | Criterios de Evaluación | Entregables Clave |
+|--------|--------------|-------------------------|-------------------|
+| **Sprint 1** | RA1 | c) Se han identificado las necesidades más demandadas a las empresas, i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto | Análisis sector gestión tareas, wireframes, maquetas HTML estáticas |
+| **Sprint 2** | RA3 | a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Frontend interactivo con DOM, simulación datos JS |
+| **Sprint 3** | RA2 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, b) Se ha realizado el estudio de viabilidad técnica del mismo | Backend PHP básico, modelo datos, scripts MySQL |
+| **Sprint 4** | RA2 | c) Se han identificado las fases o partes que componen el proyecto y su contenido, h) Se ha definido y elaborado la documentación necesaria para su diseño | Migración Laravel, estructura MVC, documentación técnica |
+| **Sprint 5** | RA2 | d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance, i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto | Sistema Eloquent completo, validaciones, calidad código |
+| **Sprint 6** | RA2, RA3 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, b) Se han determinado los recursos y la logística necesarios para cada actividad | Sistema Auth, panel administración, features avanzadas |
+| **Sprint 7** | RA3 | d) Se han determinado los procedimientos de actuación o ejecución de las actividades, f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución | Optimización UX, interactividad avanzada, cronograma |
+| **Sprint 8** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, b) Se han definido los indicadores de calidad para realizar la evaluación | Testing funcional, métricas implementadas, depuración |
+| **Sprint 9** | RA4 | e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto, f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes | Despliegue Docker, documentación final, evaluación |
 
 ### 📋 Product Backlog Detallado - TaskManager Pro (Progresión Tecnológica)
 
@@ -180,15 +240,15 @@
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1, RA4 | Análisis de procesos bibliotecarios, diseño de datos | Modelo de procesos, E/R, entorno configurado |
-| **Sprint 2** | RA2, RA3 | Implementa CRUD complejo, gestiona códigos especializados | Gestión libros con ISBN, categorización |
-| **Sprint 3** | RA2, RA5 | Gestiona roles y permisos, validaciones específicas | Sistema usuarios multi-rol, validaciones |
-| **Sprint 4** | RA2, RA5 | Implementa lógica compleja, cálculos de fechas | Sistema préstamos, control disponibilidad |
-| **Sprint 5** | RA2, RA5 | Algoritmos de cálculo, gestión de errores | Control multas, validación devoluciones |
-| **Sprint 6** | RA3, RA2 | Funcionalidades avanzadas, notificaciones | Reservas, sistema notificaciones |
-| **Sprint 7** | RA3, RA6 | Búsqueda dinámica, generación reportes | Catálogo funcional, estadísticas |
-| **Sprint 8** | RA3 | Interfaz especializada, usabilidad bibliotecaria | UX optimizada, accesibilidad |
-| **Sprint 9** | RA5, RA4, RA6 | Testing crítico, despliegue, documentación | Sistema productivo, manual bibliotecario |
+| **Sprint 1** | RA1 | a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio que ofrecen, i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto | Modelo procesos bibliotecarios, E/R biblioteca, entorno configurado |
+| **Sprint 2** | RA2 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, h) Se ha definido y elaborado la documentación necesaria para su diseño | Gestión libros completa, sistema ISBN, categorización automática |
+| **Sprint 3** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto | Sistema usuarios multi-rol, perfiles bibliotecarios, validaciones |
+| **Sprint 4** | RA2 | c) Se han identificado las fases o partes que componen el proyecto y su contenido, d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance | Sistema préstamos completo, control disponibilidad, verificaciones |
+| **Sprint 5** | RA2 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, f) Se ha realizado el presupuesto económico correspondiente | Control multas automatizado, validación devoluciones, cálculos |
+| **Sprint 6** | RA2, RA3 | g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Sistema reservas funcional, notificaciones automáticas |
+| **Sprint 7** | RA3 | b) Se han determinado los recursos y la logística necesarios para cada actividad, h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución | Catálogo funcional optimizado, estadísticas biblioteca |
+| **Sprint 8** | RA3 | d) Se han determinado los procedimientos de actuación o ejecución de las actividades, f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución | UX bibliotecaria optimizada, interfaz accesible |
+| **Sprint 9** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | Sistema biblioteca productivo, manual bibliotecario completo |
 
 ### 📋 Product Backlog Detallado - BiblioTech
 
@@ -270,15 +330,15 @@
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1, RA4 | Análisis de eventos comunitarios, arquitectura | Tipos de eventos definidos, base configurada |
-| **Sprint 2** | RA2, RA3 | Implementa CRUD eventos, gestiona categorías | Gestión eventos completa con validaciones |
-| **Sprint 3** | RA2, RA5 | Lógica inscripciones, control límites | Sistema inscripciones, control plazas |
-| **Sprint 4** | RA3, RA2 | Visualización interactiva, manipulación DOM | Calendario dinámico, timeline eventos |
-| **Sprint 5** | RA2, RA3 | Búsqueda avanzada, filtros múltiples | Sistema búsqueda, UX optimizada |
-| **Sprint 6** | RA4, RA2 | Gestión archivos, integración APIs externas | Subida imágenes, Google Maps funcional |
-| **Sprint 7** | RA2, RA3 | Servicios externos, notificaciones | Avisos automáticos, sistema valoraciones |
-| **Sprint 8** | RA3 | Interfaz coherente, experiencia usuario | UX eventos optimizada, galería multimedia |
-| **Sprint 9** | RA5, RA4, RA6 | Testing flujos, despliegue, documentación | Pruebas completas, API desplegada |
+| **Sprint 1** | RA1 | b) Se han caracterizado las empresas tipo indicando la estructura organizativa y las funciones de cada departamento, i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto | Análisis tipos eventos locales, base datos configurada, documentación |
+| **Sprint 2** | RA2 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, h) Se ha definido y elaborado la documentación necesaria para su diseño | Gestión eventos completa, sistema categorías, validaciones |
+| **Sprint 3** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, c) Se han identificado las fases o partes que componen el proyecto y su contenido | Sistema inscripciones funcional, control plazas tiempo real |
+| **Sprint 4** | RA3, RA2 | a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución, d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance | Calendario dinámico funcional, timeline eventos interactivo |
+| **Sprint 5** | RA2, RA3 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, b) Se han determinado los recursos y la logística necesarios para cada actividad | Sistema búsqueda optimizado, UX filtros avanzados |
+| **Sprint 6** | RA2 | f) Se ha realizado el presupuesto económico correspondiente, g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo | Subida imágenes eventos, Google Maps funcional |
+| **Sprint 7** | RA2, RA3 | i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto, c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades | Avisos automáticos email, sistema valoraciones funcional |
+| **Sprint 8** | RA3 | d) Se han determinado los procedimientos de actuación o ejecución de las actividades, h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución | UX eventos optimizada, galería multimedia, navegación intuitiva |
+| **Sprint 9** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | Pruebas completas flujos eventos, API desplegada productiva |
 
 ### 📋 Product Backlog Detallado - EventosLocal
 
@@ -348,15 +408,15 @@
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1, RA4 | Análisis e-commerce, diseño catálogo | Modelo productos, categorías configuradas |
-| **Sprint 2** | RA2, RA3 | Sistema usuarios, panel administración | Autenticación clientes/admin funcional |
-| **Sprint 3** | RA2, RA5 | Lógica carrito, sesiones persistentes | Carrito funcional, almacenamiento sesión |
-| **Sprint 4** | RA2, RA5 | Proceso checkout, gestión pedidos | Flujo compra completo, estados pedidos |
-| **Sprint 5** | RA2, RA3 | Búsqueda avanzada, administración | Motor búsqueda, panel admin completo |
-| **Sprint 6** | RA4, RA2 | Gestión multimedia, reportes | Imágenes productos, estadísticas ventas |
-| **Sprint 7** | RA3 | Interfaz e-commerce, experiencia compra | UX tienda optimizada, navegación intuitiva |
-| **Sprint 8** | RA5 | Testing transacciones, rendimiento | Pruebas críticas, optimización queries |
-| **Sprint 9** | RA4, RA6 | Despliegue producción, documentación | Tienda desplegada, manual administrador |
+| **Sprint 1** | RA1 | c) Se han identificado las necesidades más demandadas a las empresas, e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas | Análisis e-commerce básico, modelo productos y categorías configuradas |
+| **Sprint 2** | RA2 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, b) Se ha realizado el estudio de viabilidad técnica del mismo | Autenticación clientes/admin funcional, gestión usuarios completa |
+| **Sprint 3** | RA2 | c) Se han identificado las fases o partes que componen el proyecto y su contenido, h) Se ha definido y elaborado la documentación necesaria para su diseño | Carrito compra funcional, almacenamiento sesión, persistencia |
+| **Sprint 4** | RA2 | d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance, e) Se han previsto los recursos materiales y personales necesarios para realizarlo | Flujo compra completo, gestión pedidos, estados transición |
+| **Sprint 5** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Motor búsqueda productos, panel admin completo funcional |
+| **Sprint 6** | RA2 | g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo, i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto | Imágenes productos optimizadas, estadísticas ventas tiempo real |
+| **Sprint 7** | RA3 | b) Se han determinado los recursos y la logística necesarios para cada actividad, d) Se han determinado los procedimientos de actuación o ejecución de las actividades | UX tienda optimizada, navegación intuitiva, proceso compra fluido |
+| **Sprint 8** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, b) Se han definido los indicadores de calidad para realizar la evaluación | Pruebas críticas transacciones, optimización queries y rendimiento |
+| **Sprint 9** | RA4 | e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto, f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes | Tienda online desplegada productiva, manual administrador completo |
 
 ### 📋 Product Backlog Detallado - TiendaOnline
 
@@ -439,15 +499,15 @@
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1, RA2 | Análisis social, autenticación | Modelo usuarios, perfiles funcionales |
-| **Sprint 2** | RA2, RA4 | CRUD complejo, gestión archivos | Sistema recetas, subida imágenes |
-| **Sprint 3** | RA2, RA3 | Interactividad, validaciones | Valoraciones, sistema comentarios |
-| **Sprint 4** | RA2, RA3 | Funcionalidades usuario, organización | Favoritos, categorías dinámicas |
-| **Sprint 5** | RA3, RA2 | Búsqueda avanzada, algoritmos feed | Motor búsqueda, timeline personalizado |
-| **Sprint 6** | RA2, RA3 | Funciones sociales, notificaciones | Seguimiento, sistema avisos |
-| **Sprint 7** | RA3 | Interfaz social, experiencia usuario | UX optimizada, navegación social |
-| **Sprint 8** | RA5 | Testing interacciones, validación social | Pruebas comunidad, rendimiento |
-| **Sprint 9** | RA4, RA6 | Despliegue social, documentación | Comunidad desplegada, guías usuario |
+| **Sprint 1** | RA1, RA2 | d) Se han valorado las oportunidades de negocio previsibles en el sector, a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto | Análisis comunidad culinaria, perfiles usuarios funcionales |
+| **Sprint 2** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, h) Se ha definido y elaborado la documentación necesaria para su diseño | Sistema recetas completo, subida imágenes optimizadas |
+| **Sprint 3** | RA2, RA3 | c) Se han identificado las fases o partes que componen el proyecto y su contenido, c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades | Sistema valoraciones funcional, comentarios interactivos |
+| **Sprint 4** | RA2, RA3 | d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Sistema favoritos funcional, categorías dinámicas organizadas |
+| **Sprint 5** | RA3, RA2 | b) Se han determinado los recursos y la logística necesarios para cada actividad, e) Se han previsto los recursos materiales y personales necesarios para realizarlo | Motor búsqueda recetas, timeline personalizado funcional |
+| **Sprint 6** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, d) Se han determinado los procedimientos de actuación o ejecución de las actividades | Sistema seguimiento usuarios, notificaciones automáticas |
+| **Sprint 7** | RA3 | f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución, h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución | UX social optimizada, navegación culinaria intuitiva |
+| **Sprint 8** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, b) Se han definido los indicadores de calidad para realizar la evaluación | Pruebas comunidad culinaria, rendimiento interacciones |
+| **Sprint 9** | RA4 | e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto, f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes | Comunidad culinaria desplegada, guías usuario completas |
 
 ### 📋 Product Backlog Detallado - RecetasFáciles
 
@@ -517,15 +577,15 @@
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1, RA2 | Análisis métricas fitness, modelado datos | Perfiles usuarios, objetivos definidos |
-| **Sprint 2** | RA2, RA3 | CRUD entrenamientos, tipos ejercicios | Sistema actividades, categorización |
-| **Sprint 3** | RA2, RA3 | Dashboard funcional, métricas básicas | Vista principal, estadísticas tiempo real |
-| **Sprint 4** | RA3, RA2 | Visualizaciones, manipulación DOM | Gráficos Chart.js, progreso visual |
-| **Sprint 5** | RA2, RA3 | Sistema objetivos, planificación | Metas personales, calendario dinámico |
-| **Sprint 6** | RA2, RA3 | Gamificación, automatización | Logros, recordatorios programados |
-| **Sprint 7** | RA2, RA6 | Algoritmos estadísticas, reportes | Análisis avanzado, informes progreso |
-| **Sprint 8** | RA3 | Interfaz fitness, experiencia deportiva | UX optimizada, navegación intuitiva |
-| **Sprint 9** | RA5, RA4, RA6 | Testing métricas, despliegue, documentación | App desplegada, manual usuario fitness |
+| **Sprint 1** | RA1, RA2 | e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas, a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto | Análisis requisitos fitness, perfiles usuarios deportivos, objetivos definidos |
+| **Sprint 2** | RA2, RA3 | b) Se ha realizado el estudio de viabilidad técnica del mismo, b) Se han determinado los recursos y la logística necesarios para cada actividad | Sistema actividades completo, categorización ejercicios funcional |
+| **Sprint 3** | RA2, RA3 | c) Se han identificado las fases o partes que componen el proyecto y su contenido, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Vista principal fitness, estadísticas tiempo real funcionales |
+| **Sprint 4** | RA3, RA2 | d) Se han determinado los procedimientos de actuación o ejecución de las actividades, d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance | Gráficos Chart.js interactivos, progreso visual optimizado |
+| **Sprint 5** | RA2, RA3 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución | Metas personales funcionales, calendario dinámico entrenamientos |
+| **Sprint 6** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, g) Se ha hecho la valoración económica que da respuesta a las condiciones de la implementación | Sistema logros gamificado, recordatorios automáticos programados |
+| **Sprint 7** | RA2 | g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo, h) Se ha definido y elaborado la documentación necesaria para su diseño | Análisis estadístico avanzado, informes progreso detallados |
+| **Sprint 8** | RA3 | h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución, e) Se han identificado los riesgos inherentes a la ejecución definiendo el plan de prevención | UX fitness optimizada, navegación deportiva intuitiva |
+| **Sprint 9** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | App fitness desplegada productiva, manual usuario fitness completo |
 
 ### 📋 Product Backlog Detallado - FitnessTracker
 
@@ -590,19 +650,48 @@
 
 | Proyecto | Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 | Sprint 5 | Sprint 6 | Sprint 7 | Sprint 8 | Sprint 9 |
 |----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| **TaskManager Pro** | RA1,RA4 | RA2,RA3 | RA2,RA5 | RA3,RA2 | RA2,RA3 | RA3,RA4 | RA3,RA6 | RA5 | RA4,RA6 |
-| **BiblioTech** | RA1,RA4 | RA2,RA3 | RA2,RA5 | RA2,RA5 | RA2,RA5 | RA3,RA2 | RA3,RA6 | RA3 | RA5,RA4,RA6 |
-| **EventosLocal** | RA1,RA4 | RA2,RA3 | RA2,RA5 | RA3,RA2 | RA2,RA3 | RA4,RA2 | RA2,RA3 | RA3 | RA5,RA4,RA6 |
-| **TiendaOnline** | RA1,RA4 | RA2,RA3 | RA2,RA5 | RA2,RA5 | RA2,RA3 | RA4,RA2 | RA3 | RA5 | RA4,RA6 |
-| **RecetasFáciles** | RA1,RA2 | RA2,RA4 | RA2,RA3 | RA2,RA3 | RA3,RA2 | RA2,RA3 | RA3 | RA5 | RA4,RA6 |
-| **FitnessTracker** | RA1,RA2 | RA2,RA3 | RA2,RA3 | RA3,RA2 | RA2,RA3 | RA2,RA3 | RA2,RA6 | RA3 | RA5,RA4,RA6 |
+| **TaskManager Pro** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
+| **BiblioTech** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
+| **EventosLocal** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
+| **TiendaOnline** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
+| **RecetasFáciles** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
+| **FitnessTracker** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
 
 ### 🎯 **Patrón de Evaluación por Sprint (7 meses):**
-- **Sprints 1-2:** Enfoque en **RA1** (Análisis/Diseño) y **RA2** (Desarrollo inicial)
-- **Sprints 3-5:** Consolidación **RA2** (Funcionalidades core) y **RA3** (Interfaz)  
-- **Sprints 6-7:** Integración **RA3** (UX avanzada) y **RA4** (Recursos técnicos)
-- **Sprint 8:** Concentración en **RA3** (Interfaz final) y **RA5** (Testing)
-- **Sprint 9:** Culminación con **RA4** (Despliegue), **RA5** (Pruebas) y **RA6** (Documentación)
+- **Sprint 1:** **RA1** (Análisis del sector, identificación de necesidades, justificación del proyecto)
+- **Sprints 2-5:** **RA2** (Diseño completo del proyecto, arquitectura, documentación técnica)
+- **Sprints 6-7:** **RA3** (Planificación de ejecución, metodología ágil, gestión de recursos)
+- **Sprints 8-9:** **RA4** (Control y seguimiento, métricas, evaluación continua, entrega final)
+
+### 📊 **Distribución de Entregables por RA:**
+
+#### **RA1 - Sprint 1 (Análisis del Sector)**
+- Estudio de empresas del sector TIC
+- Identificación de necesidades del mercado
+- Justificación del proyecto elegido
+- Marco legal y ayudas disponibles
+- Plan inicial de trabajo
+
+#### **RA2 - Sprints 2-5 (Diseño del Proyecto)**
+- Documentación técnica completa
+- Estudio de viabilidad
+- Arquitectura del sistema
+- Especificaciones funcionales
+- Presupuesto y recursos
+
+#### **RA3 - Sprints 6-7 (Planificación de Ejecución)**
+- Metodología ágil implementada
+- Cronograma de desarrollo
+- Gestión de riesgos
+- Procedimientos de trabajo
+- Asignación de recursos
+
+#### **RA4 - Sprints 8-9 (Control y Seguimiento)**
+- Sistema de métricas implementado
+- Control de calidad
+- Gestión de cambios
+- Evaluación con usuarios
+- Documentación final
 
 ### 📋 Product Backlog - TiendaOnline
 
