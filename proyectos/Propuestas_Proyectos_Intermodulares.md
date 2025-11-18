@@ -132,15 +132,15 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 | Semana | Sprint | Objetivo principal | Tecnologías | Tareas del Backlog | Revisión / Entregable |
 |--------|---------|--------------------|--------------|--------------------|----------------------|
-| 1–3 | Sprint 1 | Análisis y frontend estático | HTML5, CSS3, Bootstrap | T1, T2, T3 | Wireframes, maquetas HTML estáticas |
-| 4–6 | Sprint 2 | Interactividad frontend | JavaScript, DOM | T4, T5, T6 | Frontend interactivo con JS |
-| 7–9 | Sprint 3 | Backend PHP + BD | PHP, MySQL, phpMyAdmin | T7, T8, T9 | CRUD básico con PHP vanilla |
-| 10–12 | Sprint 4 | Introducción Laravel | Laravel básico, rutas, vistas | T10, T11, T12 | Migración a Laravel, vistas Blade |
-| 13–15 | Sprint 5 | Modelos y Eloquent | Laravel intermedio, ORM | T13, T14, T15 | Sistema completo con Eloquent |
-| 16–18 | Sprint 6 | Funcionalidades avanzadas | Laravel avanzado, Auth | T16, T17, T18 | Autenticación y features avanzadas |
-| 19–21 | Sprint 7 | Optimización y UX | Laravel + JavaScript | T19, T20 | Aplicación optimizada y pulida |
-| 22–24 | Sprint 8 | Testing y calidad | PHPUnit, debugging | T21, T22 | Testing implementado |
-| 25–27 | Sprint 9 | Despliegue | Docker, producción | T23, T24 | Aplicación desplegada |
+| 1–3 | Sprint 1 | Análisis, diseño UI y modelo E/R | Figma/Balsamiq, Diagrama E/R | T1, T2, T3 | Wireframes, modelo E/R gestor tareas completo |
+| 4–6 | Sprint 2 | Maquetación frontend tareas | HTML5, CSS3, Bootstrap, JS | T4, T5, T6 | Interfaz estática completa con tareas JS dinámicas |
+| 7–9 | Sprint 3 | Backend PHP y base de datos | PHP, MySQL, PDO | T7, T8, T9 | CRUD tareas funcional con PHP vanilla |
+| 10–12 | Sprint 4 | Migración a Laravel | Laravel, Blade, Eloquent | T10, T11, T12 | Proyecto Laravel con vistas Blade y modelos |
+| 13–15 | Sprint 5 | Eloquent y validaciones | Laravel ORM, Form Requests | T13, T14, T15 | Sistema completo con Eloquent y validaciones |
+| 16–18 | Sprint 6 | Autenticación y roles | Laravel Auth, Middleware | T16, T17, T18 | Sistema login con roles y features avanzadas |
+| 19–21 | Sprint 7 | Optimización y UX | AJAX, Laravel + JavaScript | T19, T20, T21 | Aplicación optimizada con AJAX |
+| 22–24 | Sprint 8 | Testing y calidad | PHPUnit, Laravel Debugbar | T22, T23 | Testing implementado y optimizado |
+| 25–27 | Sprint 9 | Dockerización y despliegue | Docker, Docker Compose | T24 | Aplicación contenerizada y desplegada |
 
 ### 📊 Relación Sprints con RA y Criterios de Evaluación - TaskManager Pro
 
@@ -158,32 +158,32 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 ### 📋 Product Backlog Detallado - TaskManager Pro (Progresión Tecnológica)
 
-| ID | Tarea | Descripción Específica | Sprint | Tecnología | Estimación | Prioridad |
-|----|-------|------------------------|--------|------------|-------------|-----------|
-| T1 | Análisis y wireframes | Definición requisitos, casos de uso, wireframes con herramientas | Sprint 1 | Análisis | 6h | Alta |
-| T2 | Maquetación HTML/CSS | Estructura HTML semántica, diseño CSS con Bootstrap 5 | Sprint 1 | HTML/CSS | 8h | Alta |
-| T3 | Navegación y layout | Layout responsive, navegación entre páginas, estructura base | Sprint 1 | HTML/CSS | 4h | Alta |
-| T4 | Interactividad JavaScript | Validaciones formularios, manipulación DOM, eventos | Sprint 2 | JavaScript | 8h | Alta |
-| T5 | Simulación datos frontend | Arrays JS para simular proyectos/tareas, render dinámico | Sprint 2 | JavaScript | 6h | Alta |
-| T6 | LocalStorage básico | Persistencia temporal datos en navegador, CRUD simulado | Sprint 2 | JavaScript | 4h | Media |
-| T7 | Base datos MySQL | Diseño BD, tablas con phpMyAdmin, datos de prueba | Sprint 3 | MySQL | 4h | Alta |
-| T8 | PHP CRUD básico | Scripts PHP para Create, Read, Update, Delete con MySQL | Sprint 3 | PHP/MySQL | 10h | Alta |
-| T9 | Conexión frontend-backend | Integración formularios HTML con scripts PHP | Sprint 3 | PHP | 4h | Alta |
-| T10 | Instalación Laravel | Setup Laravel, configuración básica, estructura proyecto | Sprint 4 | Laravel | 4h | Alta |
-| T11 | Rutas y controladores | Definir rutas, controladores básicos, estructura MVC | Sprint 4 | Laravel | 8h | Alta |
-| T12 | Vistas Blade | Migrar HTML a plantillas Blade, layouts, componentes | Sprint 4 | Laravel | 6h | Alta |
-| T13 | Modelos Eloquent | Crear modelos, migrations, relaciones básicas | Sprint 5 | Laravel/Eloquent | 6h | Alta |
-| T14 | CRUD con Eloquent | Reescribir CRUD usando Eloquent ORM | Sprint 5 | Laravel/Eloquent | 8h | Alta |
-| T15 | Validaciones Laravel | Form requests, validaciones backend, mensajes error | Sprint 5 | Laravel | 4h | Media |
-| T16 | Autenticación Laravel | Sistema login/logout con Laravel Auth | Sprint 6 | Laravel Auth | 8h | Alta |
-| T17 | Roles y permisos | Middleware, roles usuario, control acceso | Sprint 6 | Laravel | 6h | Media |
-| T18 | Funcionalidades avanzadas | Comentarios, asignaciones, dashboard con métricas | Sprint 6 | Laravel | 4h | Media |
-| T19 | AJAX y mejoras UX | Peticiones asíncronas, updates sin reload | Sprint 7 | Laravel/JS | 8h | Media |
-| T20 | Optimización frontend | Responsive final, UX/UI pulido, accesibilidad | Sprint 7 | CSS/JS | 8h | Alta |
-| T21 | Testing básico | Tests unitarios modelos, tests funcionales rutas | Sprint 8 | PHPUnit | 8h | Media |
-| T22 | Debugging y calidad | Corrección bugs, logging, optimización queries | Sprint 8 | Laravel | 8h | Media |
-| T23 | Docker básico | Dockerfile, docker-compose, containerización | Sprint 9 | Docker | 8h | Alta |
-| T24 | Documentación y entrega | README, manual usuario, presentación final | Sprint 9 | Documentación | 8h | Media |
+| ID | Tarea | Descripción Específica | Sprint | Estimación | Prioridad |
+|----|-------|------------------------|--------|-------------|-----------|
+| T1 | Análisis requisitos gestor tareas | Estudio flujos trabajo: proyectos, tareas, equipos, asignaciones | Sprint 1 | 4h | Alta |
+| T2 | Wireframes gestor tareas | Diseño mockups: dashboard, lista tareas, kanban, formularios | Sprint 1 | 6h | Alta |
+| T3 | Modelo E/R proyectos | Diagrama E/R: proyectos, tareas, usuarios, equipos, asignaciones | Sprint 1 | 8h | Alta |
+| T4 | Maquetación HTML tareas | HTML semántico: dashboard, kanban, lista tareas, formularios | Sprint 2 | 6h | Alta |
+| T5 | Estilos CSS gestor | CSS Bootstrap: dashboard, cards tareas, kanban responsive | Sprint 2 | 6h | Alta |
+| T6 | JavaScript tareas dinámicas | Kanban interactivo JS, drag & drop, LocalStorage simulado | Sprint 2 | 6h | Alta |
+| T7 | Base datos MySQL tareas | Creación tablas: proyectos, tareas, usuarios, datos prueba | Sprint 3 | 6h | Alta |
+| T8 | CRUD PHP tareas | Scripts PHP para gestión tareas: crear, listar, editar, eliminar | Sprint 3 | 6h | Alta |
+| T9 | Asignaciones PHP | Lógica PHP: asignar tareas, cambiar estados, integración frontend | Sprint 3 | 6h | Alta |
+| T10 | Instalación Laravel | Setup Laravel, configuración básica, estructura proyecto | Sprint 4 | 6h | Alta |
+| T11 | Rutas y controladores | Definir rutas, controladores básicos, estructura MVC | Sprint 4 | 6h | Alta |
+| T12 | Vistas Blade | Migrar HTML a plantillas Blade, layouts, componentes | Sprint 4 | 6h | Alta |
+| T13 | Modelos Eloquent | Crear modelos, migrations, relaciones básicas | Sprint 5 | 6h | Alta |
+| T14 | CRUD con Eloquent | Reescribir CRUD usando Eloquent ORM | Sprint 5 | 6h | Alta |
+| T15 | Validaciones Laravel | Form requests, validaciones backend, mensajes error | Sprint 5 | 6h | Media |
+| T16 | Autenticación Laravel | Sistema login/logout con Laravel Auth | Sprint 6 | 6h | Alta |
+| T17 | Roles y permisos | Middleware, roles usuario, control acceso | Sprint 6 | 6h | Media |
+| T18 | Funcionalidades avanzadas | Comentarios, asignaciones, dashboard con métricas | Sprint 6 | 6h | Media |
+| T19 | AJAX y mejoras UX | Peticiones asíncronas, updates sin reload | Sprint 7 | 6h | Media |
+| T20 | Optimización frontend | Responsive final, UX/UI pulido, accesibilidad | Sprint 7 | 6h | Alta |
+| T21 | Notificaciones y dashboard | Sistema notificaciones, métricas avanzadas dashboard | Sprint 7 | 6h | Media |
+| T22 | Testing básico | Tests unitarios modelos, tests funcionales rutas | Sprint 8 | 8h | Media |
+| T23 | Debugging y calidad | Corrección bugs, logging, optimización queries | Sprint 8 | 10h | Media |
+| T24 | Docker y despliegue | Dockerfile, docker-compose, containerización y despliegue | Sprint 9 | 18h | Alta |
 
 ---
 
@@ -226,28 +226,28 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 | Semana | Sprint | Objetivo principal | Tecnologías | Tareas del Backlog | Revisión / Entregable |
 |--------|---------|--------------------|--------------|--------------------|----------------------|
-| 1–3 | Sprint 1 | Análisis y maquetación biblioteca | HTML5, CSS3, Bootstrap | T1, T2, T3 | Diseño biblioteca, formularios estáticos |
-| 4–6 | Sprint 2 | Simulación catálogo frontend | JavaScript, DOM | T4, T5, T6 | Catálogo interactivo con JS |
-| 7–9 | Sprint 3 | Backend PHP bibliotecario | PHP, MySQL, phpMyAdmin | T7, T8, T9 | CRUD libros y usuarios con PHP |
-| 10–12 | Sprint 4 | Migración Laravel biblioteca | Laravel básico, rutas | T10, T11, T12 | Sistema biblioteca en Laravel |
-| 13–15 | Sprint 5 | Lógica préstamos Eloquent | Laravel intermedio, ORM | T13, T14, T15 | Sistema préstamos con modelos |
-| 16–18 | Sprint 6 | Funciones bibliotecarias | Laravel avanzado | T16, T17, T18 | Multas, reservas, autenticación |
-| 19–21 | Sprint 7 | Optimización biblioteca | Laravel + JS | T19, T20 | Búsquedas, reportes, UX |
-| 22–24 | Sprint 8 | Testing biblioteca | PHPUnit | T21, T22 | Testing lógica bibliotecaria |
-| 25–27 | Sprint 9 | Despliegue biblioteca | Docker | T23, T24 | Sistema desplegado |
+| 1–3 | Sprint 1 | Análisis, diseño UI y modelo E/R | Figma/Balsamiq, Diagrama E/R | T1, T2, T3 | Wireframes, modelo E/R biblioteca completo |
+| 4–6 | Sprint 2 | Frontend HTML/CSS/JS catálogo | HTML5, CSS3, Bootstrap, JavaScript | T4, T5, T6 | Catálogo interactivo estático con JS |
+| 7–9 | Sprint 3 | Backend PHP y base datos | PHP, MySQL, PDO | T7, T8, T9 | CRUD PHP funcional con MySQL |
+| 10–12 | Sprint 4 | Migración a Laravel | Laravel, Blade, Artisan | T10, T11, T12 | Proyecto migrado a Laravel MVC |
+| 13–15 | Sprint 5 | Modelos Eloquent y préstamos | Eloquent ORM, Migrations | T13, T14, T15 | Sistema préstamos con Eloquent |
+| 16–18 | Sprint 6 | Autenticación y funcionalidades | Laravel Auth, Middleware | T16, T17, T18 | Sistema completo autenticado |
+| 19–21 | Sprint 7 | Optimización y reportes | Ajax, Chart.js | T19, T20 | UX optimizada, estadísticas |
+| 22–24 | Sprint 8 | Testing y calidad | PHPUnit, Debugging | T21, T22 | Tests implementados, bugs corregidos |
+| 25–27 | Sprint 9 | Despliegue y documentación | Docker, Docker Compose | T23, T24 | Aplicación desplegada, documentación |
 
 ### 📊 Relación Sprints con RA y Criterios de Evaluación - BiblioTech
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1 | a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio que ofrecen, i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto | Modelo procesos bibliotecarios, E/R biblioteca, entorno configurado |
-| **Sprint 2** | RA2 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, h) Se ha definido y elaborado la documentación necesaria para su diseño | Gestión libros completa, sistema ISBN, categorización automática |
-| **Sprint 3** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto | Sistema usuarios multi-rol, perfiles bibliotecarios, validaciones |
-| **Sprint 4** | RA2 | c) Se han identificado las fases o partes que componen el proyecto y su contenido, d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance | Sistema préstamos completo, control disponibilidad, verificaciones |
-| **Sprint 5** | RA2 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, f) Se ha realizado el presupuesto económico correspondiente | Control multas automatizado, validación devoluciones, cálculos |
-| **Sprint 6** | RA2, RA3 | g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Sistema reservas funcional, notificaciones automáticas |
-| **Sprint 7** | RA3 | b) Se han determinado los recursos y la logística necesarios para cada actividad, h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución | Catálogo funcional optimizado, estadísticas biblioteca |
-| **Sprint 8** | RA3 | d) Se han determinado los procedimientos de actuación o ejecución de las actividades, f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución | UX bibliotecaria optimizada, interfaz accesible |
+| **Sprint 1** | RA1 | c) Se han identificado las necesidades más demandadas a las empresas, f) Se han determinado las características específicas requeridas al proyecto, i) Se ha elaborado el guión de trabajo | Análisis procesos bibliotecarios, wireframes UI, modelo E/R completo |
+| **Sprint 2** | RA2 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, h) Se ha definido y elaborado la documentación necesaria para su diseño | Frontend HTML/CSS/JS interactivo, catálogo con búsqueda dinámica |
+| **Sprint 3** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, c) Se han identificado las fases o partes que componen el proyecto | Backend PHP funcional, base datos MySQL, CRUD operativo |
+| **Sprint 4** | RA2 | d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance, h) Se ha definido y elaborado la documentación necesaria | Proyecto Laravel estructurado, rutas y vistas Blade |
+| **Sprint 5** | RA2 | e) Se han previsto los recursos materiales y personales necesarios, i) Se han identificado los aspectos de calidad del proyecto | Modelos Eloquent, sistema préstamos y devoluciones |
+| **Sprint 6** | RA2, RA3 | f) Se ha realizado el presupuesto económico, a) Se han secuenciado las actividades ordenándolas en función de las necesidades | Autenticación, sistema reservas, búsqueda avanzada |
+| **Sprint 7** | RA3 | b) Se han determinado los recursos y la logística necesarios, h) Se ha definido y elaborado la documentación de implementación | Reportes estadísticos, UX optimizada responsive |
+| **Sprint 8** | RA4 | a) Se ha definido el procedimiento de evaluación, b) Se han definido los indicadores de calidad | Tests implementados, debugging completado |
 | **Sprint 9** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | Sistema biblioteca productivo, manual bibliotecario completo |
 
 ### 📋 Product Backlog Detallado - BiblioTech
@@ -319,31 +319,31 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 ### 🗓️ Sprint Planning - EventosLocal (7 meses)
 
-| Semana | Sprint | Objetivo principal | Tareas del Backlog | Revisión / Entregable |
-|--------|---------|--------------------|--------------------|----------------------|
-| 1–3 | Sprint 1 | Análisis y configuración eventos | T1, T2, T3 | Definición eventos, Laravel + roles configurados |
-| 4–6 | Sprint 2 | CRUD eventos completo | T4, T5 | Gestión completa de eventos con categorías |
-| 7–9 | Sprint 3 | Sistema de inscripciones | T6, T7 | Inscripciones y control de plazas funcional |
-| 10–12 | Sprint 4 | Calendario y visualización | T8, T9 | Vista calendario dinámico y timeline eventos |
-| 13–15 | Sprint 5 | Búsqueda y filtros avanzados | T10, T11 | Sistema búsqueda y filtros múltiples |
-| 16–18 | Sprint 6 | Multimedia y ubicaciones | T12, T13 | Gestión imágenes y Google Maps integrado |
-| 19–21 | Sprint 7 | Notificaciones y valoraciones | T14, T15 | Sistema avisos y feedback usuarios |
-| 22–24 | Sprint 8 | Frontend optimizado | T16, T17 | Interfaz eventos mejorada y responsive |
-| 25–27 | Sprint 9 | Testing y lanzamiento | T18, T19 | Pruebas flujos y despliegue final |
+| Semana | Sprint | Objetivo principal | Tecnologías | Tareas del Backlog | Revisión / Entregable |
+|--------|---------|--------------------|--------------------|--------------------|-----------------------|
+| 1–3 | Sprint 1 | Análisis, diseño UI y modelo E/R | Figma/Balsamiq, Diagrama E/R | T1, T2, T3 | Wireframes, modelo E/R eventos completo |
+| 4–6 | Sprint 2 | Maquetación frontend eventos | HTML5, CSS3, Bootstrap, JS | T4, T5, T6 | Interfaz estática completa con calendario interactivo |
+| 7–9 | Sprint 3 | Backend PHP y base de datos | PHP, MySQL, PDO | T7, T8, T9 | CRUD eventos funcional con inscripciones |
+| 10–12 | Sprint 4 | Migración a Laravel | Laravel, Blade, Eloquent | T10, T11, T12 | Proyecto Laravel con vistas Blade y modelos |
+| 13–15 | Sprint 5 | Autenticación y roles | Laravel Auth, Gates/Policies | T13, T14, T15 | Sistema login con roles organizador/asistente |
+| 16–18 | Sprint 6 | Búsqueda, filtros y mapa | Laravel Query Builder, Google Maps API | T16, T17, T18 | Búsqueda avanzada y geolocalización eventos |
+| 19–21 | Sprint 7 | Multimedia y notificaciones | Storage, Mailable, Cron | T19, T20, T21 | Imágenes eventos y avisos automáticos |
+| 22–24 | Sprint 8 | Optimización y testing | PHPUnit, Laravel Debugbar | T22, T23 | Tests unitarios y rendimiento optimizado |
+| 25–27 | Sprint 9 | Dockerización y despliegue | Docker, Docker Compose | T24 | Aplicación contenerizada y desplegada |
 
 ### 📊 Relación Sprints con RA y Criterios de Evaluación - EventosLocal
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1 | b) Se han caracterizado las empresas tipo indicando la estructura organizativa y las funciones de cada departamento, i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto | Análisis tipos eventos locales, base datos configurada, documentación |
-| **Sprint 2** | RA2 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, h) Se ha definido y elaborado la documentación necesaria para su diseño | Gestión eventos completa, sistema categorías, validaciones |
-| **Sprint 3** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, c) Se han identificado las fases o partes que componen el proyecto y su contenido | Sistema inscripciones funcional, control plazas tiempo real |
-| **Sprint 4** | RA3, RA2 | a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución, d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance | Calendario dinámico funcional, timeline eventos interactivo |
-| **Sprint 5** | RA2, RA3 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, b) Se han determinado los recursos y la logística necesarios para cada actividad | Sistema búsqueda optimizado, UX filtros avanzados |
-| **Sprint 6** | RA2 | f) Se ha realizado el presupuesto económico correspondiente, g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo | Subida imágenes eventos, Google Maps funcional |
-| **Sprint 7** | RA2, RA3 | i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto, c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades | Avisos automáticos email, sistema valoraciones funcional |
-| **Sprint 8** | RA3 | d) Se han determinado los procedimientos de actuación o ejecución de las actividades, h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución | UX eventos optimizada, galería multimedia, navegación intuitiva |
-| **Sprint 9** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | Pruebas completas flujos eventos, API desplegada productiva |
+| **Sprint 1** | RA1 | d) Se han identificado las necesidades más demandadas para el sector productivo, e) Se han identificado las características específicas del proyecto, i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto | Análisis tipos eventos locales, wireframes UI, modelo E/R completo |
+| **Sprint 2** | RA1, RA2 | f) Se han determinado los aspectos que se deben incluir en el proyecto, h) Se ha definido y elaborado la documentación necesaria para su diseño | Maquetación HTML completa, estilos CSS responsivos, calendario JS funcional |
+| **Sprint 3** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, c) Se han identificado las fases o partes que componen el proyecto y su contenido | Base datos MySQL, CRUD PHP eventos, sistema inscripciones PHP |
+| **Sprint 4** | RA2, RA3 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Proyecto Laravel configurado, vistas Blade, modelos Eloquent |
+| **Sprint 5** | RA2, RA3 | i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto, d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance | Sistema autenticación, middleware roles, políticas acceso |
+| **Sprint 6** | RA2, RA3 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, b) Se han determinado los recursos y la logística necesarios para cada actividad | Búsqueda avanzada, filtros múltiples, Google Maps integrado |
+| **Sprint 7** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades | Gestión imágenes eventos, notificaciones email, valoraciones |
+| **Sprint 8** | RA3, RA4 | d) Se han determinado los procedimientos de actuación o ejecución de las actividades, a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones | Tests unitarios PHPUnit, optimización rendimiento, debugging |
+| **Sprint 9** | RA4 | c) Se han aplicado indicadores de calidad a las actividades diseñadas en el proyecto, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | Dockerfile, docker-compose.yml, aplicación desplegada productiva |
 
 ### 📋 Product Backlog Detallado - EventosLocal
 
@@ -402,31 +402,31 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 ### 🗓️ Sprint Planning - TiendaOnline (7 meses)
 
-| Semana | Sprint | Objetivo principal | Tareas del Backlog | Revisión / Entregable |
-|--------|---------|--------------------|--------------------|----------------------|
-| 1–3 | Sprint 1 | Análisis y catálogo base | T1, T2, T3 | Requisitos e-commerce, CRUD productos y categorías |
-| 4–6 | Sprint 2 | Usuarios y autenticación | T4, T5 | Sistema clientes y panel administración |
-| 7–9 | Sprint 3 | Carrito de compra | T6, T7 | Carrito funcional y persistente |
-| 10–12 | Sprint 4 | Checkout y pedidos | T8, T9 | Proceso compra y gestión pedidos |
-| 13–15 | Sprint 5 | Búsqueda y administración | T10, T11 | Búsqueda productos y panel admin completo |
-| 16–18 | Sprint 6 | Multimedia y reportes | T12, T13 | Gestión imágenes y estadísticas ventas |
-| 19–21 | Sprint 7 | Frontend e-commerce | T14, T15 | Interfaz tienda optimizada y responsive |
-| 22–24 | Sprint 8 | Testing y optimización | T16, T17 | Pruebas flujos compra y rendimiento |
-| 25–27 | Sprint 9 | Lanzamiento tienda | T18, T19 | Despliegue final y documentación completa |
+| Semana | Sprint | Objetivo principal | Tecnologías | Tareas del Backlog | Revisión / Entregable |
+|--------|---------|--------------------|--------------------|--------------------|-----------------------|
+| 1–3 | Sprint 1 | Análisis, diseño UI y modelo E/R | Figma/Balsamiq, Diagrama E/R | T1, T2, T3 | Wireframes, modelo E/R e-commerce completo |
+| 4–6 | Sprint 2 | Maquetación frontend tienda | HTML5, CSS3, Bootstrap, JS | T4, T5, T6 | Interfaz estática completa con carrito JS |
+| 7–9 | Sprint 3 | Backend PHP y base de datos | PHP, MySQL, PDO, Sesiones | T7, T8, T9 | CRUD productos funcional con carrito PHP |
+| 10–12 | Sprint 4 | Migración a Laravel | Laravel, Blade, Eloquent | T10, T11, T12 | Proyecto Laravel con vistas Blade y modelos |
+| 13–15 | Sprint 5 | Autenticación y checkout | Laravel Auth, Middleware | T13, T14, T15 | Sistema login con proceso compra funcional |
+| 16–18 | Sprint 6 | Búsqueda y panel admin | Laravel Query Builder, Gates | T16, T17, T18 | Búsqueda avanzada y administración completa |
+| 19–21 | Sprint 7 | Multimedia y reportes | Storage, Charts, Laravel Excel | T19, T20, T21 | Imágenes productos y estadísticas ventas |
+| 22–24 | Sprint 8 | Optimización y testing | PHPUnit, Laravel Debugbar | T22, T23 | Tests transacciones y rendimiento optimizado |
+| 25–27 | Sprint 9 | Dockerización y despliegue | Docker, Docker Compose | T24 | Tienda contenerizada y desplegada |
 
 ### 📊 Relación Sprints con RA y Criterios de Evaluación - TiendaOnline
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1 | c) Se han identificado las necesidades más demandadas a las empresas, e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas | Análisis e-commerce básico, modelo productos y categorías configuradas |
-| **Sprint 2** | RA2 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, b) Se ha realizado el estudio de viabilidad técnica del mismo | Autenticación clientes/admin funcional, gestión usuarios completa |
-| **Sprint 3** | RA2 | c) Se han identificado las fases o partes que componen el proyecto y su contenido, h) Se ha definido y elaborado la documentación necesaria para su diseño | Carrito compra funcional, almacenamiento sesión, persistencia |
-| **Sprint 4** | RA2 | d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance, e) Se han previsto los recursos materiales y personales necesarios para realizarlo | Flujo compra completo, gestión pedidos, estados transición |
-| **Sprint 5** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Motor búsqueda productos, panel admin completo funcional |
-| **Sprint 6** | RA2 | g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo, i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto | Imágenes productos optimizadas, estadísticas ventas tiempo real |
-| **Sprint 7** | RA3 | b) Se han determinado los recursos y la logística necesarios para cada actividad, d) Se han determinado los procedimientos de actuación o ejecución de las actividades | UX tienda optimizada, navegación intuitiva, proceso compra fluido |
-| **Sprint 8** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, b) Se han definido los indicadores de calidad para realizar la evaluación | Pruebas críticas transacciones, optimización queries y rendimiento |
-| **Sprint 9** | RA4 | e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto, f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes | Tienda online desplegada productiva, manual administrador completo |
+| **Sprint 1** | RA1 | c) Se han identificado las necesidades más demandadas a las empresas, e) Se han identificado las características específicas del proyecto, i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto | Análisis requisitos e-commerce, wireframes UI, modelo E/R comercial |
+| **Sprint 2** | RA1, RA2 | f) Se han determinado los aspectos que se deben incluir en el proyecto, h) Se ha definido y elaborado la documentación necesaria para su diseño | Maquetación HTML completa, estilos CSS responsivos, carrito JS funcional |
+| **Sprint 3** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, c) Se han identificado las fases o partes que componen el proyecto y su contenido | Base datos MySQL, CRUD PHP productos, carrito PHP con sesiones |
+| **Sprint 4** | RA2, RA3 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Proyecto Laravel configurado, vistas Blade, modelos Eloquent |
+| **Sprint 5** | RA2, RA3 | d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance, i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto | Sistema autenticación, checkout completo, gestión pedidos |
+| **Sprint 6** | RA2, RA3 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, b) Se han determinado los recursos y la logística necesarios para cada actividad | Motor búsqueda productos, panel admin completo, roles |
+| **Sprint 7** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo | Gestión imágenes productos, estadísticas ventas, reportes |
+| **Sprint 8** | RA3, RA4 | d) Se han determinado los procedimientos de actuación o ejecución de las actividades, a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones | Tests transacciones, optimización queries, debugging |
+| **Sprint 9** | RA4 | c) Se han aplicado indicadores de calidad a las actividades diseñadas en el proyecto, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | Dockerfile, docker-compose.yml, tienda desplegada productiva |
 
 ### 📋 Product Backlog Detallado - TiendaOnline
 
@@ -457,19 +457,6 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 | T23 | Docker tienda | Containerización, docker-compose, configuración producción | Sprint 9 | 8h | Alta |
 | T24 | Documentación comercial | Manual administrador, guía productos, procesos gestión | Sprint 9 | 8h | Media |
 
-### 📊 Relación Sprints con RA y Criterios de Evaluación - TiendaOnline
-
-| Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
-|--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1, RA2 | Análisis e-commerce, CRUD avanzado | Modelo de datos, catálogo productos |
-| **Sprint 2** | RA2, RA3 | Integración compleja, sesiones | Sistema usuarios, carrito persistente |
-| **Sprint 3** | RA2, RA5 | Lógica de negocio, validaciones | Checkout, gestión estados pedidos |
-| **Sprint 4** | RA3, RA2 | Interfaces administrativas, búsqueda | Panel admin, motor búsqueda |
-| **Sprint 5** | RA4, RA2 | Gestión archivos, reportes | Subida imágenes, estadísticas |
-| **Sprint 6** | RA3 | UX e-commerce, conversión | Interfaz optimizada, responsive |
-| **Sprint 7** | RA5 | Testing transacciones, flujos críticos | Pruebas de compra completas |
-| **Sprint 8** | RA4, RA6 | Despliegue comercial, documentación | Tienda en producción, manual admin |
-
 ---
 
 ## Proyecto 5 – RecetasFáciles
@@ -498,31 +485,31 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 ### 🗓️ Sprint Planning - RecetasFáciles (7 meses)
 
-| Semana | Sprint | Objetivo principal | Tareas del Backlog | Revisión / Entregable |
-|--------|---------|--------------------|--------------------|----------------------|
-| 1–3 | Sprint 1 | Análisis y perfiles usuarios | T1, T2, T3 | Definición red social, usuarios y autenticación |
-| 4–6 | Sprint 2 | CRUD recetas completo | T4, T5 | Gestión recetas y subida fotos funcional |
-| 7–9 | Sprint 3 | Valoraciones y comentarios | T6, T7 | Sistema rating y feedback implementado |
-| 10–12 | Sprint 4 | Favoritos y categorización | T8, T9 | Lista favoritos y organización contenido |
-| 13–15 | Sprint 5 | Búsqueda y feed social | T10, T11 | Motor búsqueda y timeline dinámico |
-| 16–18 | Sprint 6 | Funciones sociales avanzadas | T12, T13 | Seguimiento usuarios y notificaciones |
-| 19–21 | Sprint 7 | Frontend social optimizado | T14, T15 | Interfaz red social mejorada y responsive |
-| 22–24 | Sprint 8 | Testing y optimización | T16, T17 | Pruebas interacciones y rendimiento |
-| 25–27 | Sprint 9 | Comunidad online | T18, T19 | Despliegue final y documentación comunidad |
+| Semana | Sprint | Objetivo principal | Tecnologías | Tareas del Backlog | Revisión / Entregable |
+|--------|---------|--------------------|--------------------|--------------------|-----------------------|
+| 1–3 | Sprint 1 | Análisis, diseño UI y modelo E/R | Figma/Balsamiq, Diagrama E/R | T1, T2, T3 | Wireframes, modelo E/R red social completo |
+| 4–6 | Sprint 2 | Maquetación frontend social | HTML5, CSS3, Bootstrap, JS | T4, T5, T6 | Interfaz estática completa con feed interactivo |
+| 7–9 | Sprint 3 | Backend PHP y base de datos | PHP, MySQL, PDO | T7, T8, T9 | CRUD recetas funcional con comentarios PHP |
+| 10–12 | Sprint 4 | Migración a Laravel | Laravel, Blade, Eloquent | T10, T11, T12 | Proyecto Laravel con vistas Blade y modelos |
+| 13–15 | Sprint 5 | Autenticación y favoritos | Laravel Auth, Relaciones Eloquent | T13, T14, T15 | Sistema login con favoritos y categorización |
+| 16–18 | Sprint 6 | Búsqueda y feed social | Laravel Query Builder, Pagination | T16, T17, T18 | Motor búsqueda y timeline dinámico |
+| 19–21 | Sprint 7 | Funciones sociales avanzadas | Notifications, Events, Jobs | T19, T20, T21 | Seguimiento usuarios y notificaciones |
+| 22–24 | Sprint 8 | Optimización y testing | PHPUnit, Laravel Debugbar | T22, T23 | Tests interacciones y rendimiento optimizado |
+| 25–27 | Sprint 9 | Dockerización y despliegue | Docker, Docker Compose | T24 | Comunidad contenerizada y desplegada |
 
 ### 📊 Relación Sprints con RA y Criterios de Evaluación - RecetasFáciles
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1, RA2 | d) Se han valorado las oportunidades de negocio previsibles en el sector, a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto | Análisis comunidad culinaria, perfiles usuarios funcionales |
-| **Sprint 2** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, h) Se ha definido y elaborado la documentación necesaria para su diseño | Sistema recetas completo, subida imágenes optimizadas |
-| **Sprint 3** | RA2, RA3 | c) Se han identificado las fases o partes que componen el proyecto y su contenido, c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades | Sistema valoraciones funcional, comentarios interactivos |
-| **Sprint 4** | RA2, RA3 | d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Sistema favoritos funcional, categorías dinámicas organizadas |
-| **Sprint 5** | RA3, RA2 | b) Se han determinado los recursos y la logística necesarios para cada actividad, e) Se han previsto los recursos materiales y personales necesarios para realizarlo | Motor búsqueda recetas, timeline personalizado funcional |
-| **Sprint 6** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, d) Se han determinado los procedimientos de actuación o ejecución de las actividades | Sistema seguimiento usuarios, notificaciones automáticas |
-| **Sprint 7** | RA3 | f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución, h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución | UX social optimizada, navegación culinaria intuitiva |
-| **Sprint 8** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, b) Se han definido los indicadores de calidad para realizar la evaluación | Pruebas comunidad culinaria, rendimiento interacciones |
-| **Sprint 9** | RA4 | e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto, f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes | Comunidad culinaria desplegada, guías usuario completas |
+| **Sprint 1** | RA1 | d) Se han valorado las oportunidades de negocio previsibles en el sector, e) Se han identificado las características específicas del proyecto, i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto | Análisis red social culinaria, wireframes UI, modelo E/R social |
+| **Sprint 2** | RA1, RA2 | f) Se han determinado los aspectos que se deben incluir en el proyecto, h) Se ha definido y elaborado la documentación necesaria para su diseño | Maquetación HTML completa, estilos CSS responsivos, feed JS dinámico |
+| **Sprint 3** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, c) Se han identificado las fases o partes que componen el proyecto y su contenido | Base datos MySQL, CRUD PHP recetas, comentarios y valoraciones PHP |
+| **Sprint 4** | RA2, RA3 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Proyecto Laravel configurado, vistas Blade, modelos Eloquent |
+| **Sprint 5** | RA2, RA3 | d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance, c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades | Sistema autenticación, favoritos funcional, categorías |
+| **Sprint 6** | RA2, RA3 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, b) Se han determinado los recursos y la logística necesarios para cada actividad | Motor búsqueda recetas, timeline personalizado, paginación |
+| **Sprint 7** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, d) Se han determinado los procedimientos de actuación o ejecución de las actividades | Seguimiento usuarios, notificaciones automáticas, eventos |
+| **Sprint 8** | RA3, RA4 | f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución, a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones | Tests PHPUnit, optimización rendimiento, debugging |
+| **Sprint 9** | RA4 | c) Se han aplicado indicadores de calidad a las actividades diseñadas en el proyecto, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | Dockerfile, docker-compose.yml, comunidad desplegada productiva |
 
 ### 📋 Product Backlog Detallado - RecetasFáciles
 
@@ -581,31 +568,31 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 ### 🗓️ Sprint Planning - FitnessTracker (7 meses)
 
-| Semana | Sprint | Objetivo principal | Tareas del Backlog | Revisión / Entregable |
-|--------|---------|--------------------|--------------------|----------------------|
-| 1–3 | Sprint 1 | Análisis y perfiles fitness | T1, T2, T3 | Definición métricas, usuarios con datos físicos |
-| 4–6 | Sprint 2 | Sistema entrenamientos | T4, T5 | CRUD actividades y tipos ejercicios |
-| 7–9 | Sprint 3 | Dashboard y métricas | T6, T7 | Vista principal con estadísticas básicas |
-| 10–12 | Sprint 4 | Gráficos y visualización | T8, T9 | Chart.js implementado y progressos visuales |
-| 13–15 | Sprint 5 | Objetivos y calendario | T10, T11 | Sistema metas y vista calendario entrenamientos |
-| 16–18 | Sprint 6 | Logros y gamificación | T12, T13 | Sistema logros y recordatorios automáticos |
-| 19–21 | Sprint 7 | Estadísticas avanzadas | T14, T15 | Reportes personales y análisis progreso |
-| 22–24 | Sprint 8 | Frontend fitness optimizado | T16, T17 | UX fitness mejorada y responsive design |
-| 25–27 | Sprint 9 | App fitness completa | T18, T19 | Testing, despliegue y documentación final |
+| Semana | Sprint | Objetivo principal | Tecnologías | Tareas del Backlog | Revisión / Entregable |
+|--------|---------|--------------------|--------------------|--------------------|-----------------------|
+| 1–3 | Sprint 1 | Análisis, diseño UI y modelo E/R | Figma/Balsamiq, Diagrama E/R | T1, T2, T3 | Wireframes, modelo E/R fitness completo |
+| 4–6 | Sprint 2 | Maquetación frontend fitness | HTML5, CSS3, Bootstrap, Chart.js | T4, T5, T6 | Dashboard estático completo con gráficos JS |
+| 7–9 | Sprint 3 | Backend PHP y base de datos | PHP, MySQL, PDO | T7, T8, T9 | CRUD entrenamientos funcional con métricas PHP |
+| 10–12 | Sprint 4 | Migración a Laravel | Laravel, Blade, Eloquent | T10, T11, T12 | Proyecto Laravel con vistas Blade y modelos |
+| 13–15 | Sprint 5 | Autenticación y objetivos | Laravel Auth, Validaciones | T13, T14, T15 | Sistema login con metas personales funcional |
+| 16–18 | Sprint 6 | Calendario y visualización | FullCalendar.js, Laravel Collections | T16, T17, T18 | Calendario entrenamientos y progreso visual |
+| 19–21 | Sprint 7 | Gamificación y recordatorios | Notifications, Tasks Scheduling | T19, T20, T21 | Logros, recordatorios automáticos, estadísticas |
+| 22–24 | Sprint 8 | Optimización y testing | PHPUnit, Laravel Debugbar | T22, T23 | Tests métricas y rendimiento optimizado |
+| 25–27 | Sprint 9 | Dockerización y despliegue | Docker, Docker Compose | T24 | App fitness contenerizada y desplegada |
 
 ### 📊 Relación Sprints con RA y Criterios de Evaluación - FitnessTracker
 
 | Sprint | RA Principales | Criterios de Evaluación | Entregables Clave |
 |--------|----------------|-------------------------|-------------------|
-| **Sprint 1** | RA1, RA2 | e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas, a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto | Análisis requisitos fitness, perfiles usuarios deportivos, objetivos definidos |
-| **Sprint 2** | RA2, RA3 | b) Se ha realizado el estudio de viabilidad técnica del mismo, b) Se han determinado los recursos y la logística necesarios para cada actividad | Sistema actividades completo, categorización ejercicios funcional |
-| **Sprint 3** | RA2, RA3 | c) Se han identificado las fases o partes que componen el proyecto y su contenido, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Vista principal fitness, estadísticas tiempo real funcionales |
-| **Sprint 4** | RA3, RA2 | d) Se han determinado los procedimientos de actuación o ejecución de las actividades, d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance | Gráficos Chart.js interactivos, progreso visual optimizado |
-| **Sprint 5** | RA2, RA3 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución | Metas personales funcionales, calendario dinámico entrenamientos |
-| **Sprint 6** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, g) Se ha hecho la valoración económica que da respuesta a las condiciones de la implementación | Sistema logros gamificado, recordatorios automáticos programados |
-| **Sprint 7** | RA2 | g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo, h) Se ha definido y elaborado la documentación necesaria para su diseño | Análisis estadístico avanzado, informes progreso detallados |
-| **Sprint 8** | RA3 | h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución, e) Se han identificado los riesgos inherentes a la ejecución definiendo el plan de prevención | UX fitness optimizada, navegación deportiva intuitiva |
-| **Sprint 9** | RA4 | a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | App fitness desplegada productiva, manual usuario fitness completo |
+| **Sprint 1** | RA1 | e) Se han identificado las características específicas del proyecto, d) Se han valorado las oportunidades de negocio previsibles en el sector, i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto | Análisis métricas fitness, wireframes UI, modelo E/R fitness |
+| **Sprint 2** | RA1, RA2 | f) Se han determinado los aspectos que se deben incluir en el proyecto, h) Se ha definido y elaborado la documentación necesaria para su diseño | Maquetación HTML completa, estilos CSS responsivos, gráficos Chart.js |
+| **Sprint 3** | RA2 | b) Se ha realizado el estudio de viabilidad técnica del mismo, c) Se han identificado las fases o partes que componen el proyecto y su contenido | Base datos MySQL, CRUD PHP entrenamientos, cálculos métricas PHP |
+| **Sprint 4** | RA2, RA3 | a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto, a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución | Proyecto Laravel configurado, vistas Blade, modelos Eloquent |
+| **Sprint 5** | RA2, RA3 | d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance, i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto | Sistema autenticación, objetivos personales, validaciones |
+| **Sprint 6** | RA2, RA3 | e) Se han previsto los recursos materiales y personales necesarios para realizarlo, b) Se han determinado los recursos y la logística necesarios para cada actividad | Calendario entrenamientos, visualización progreso, gráficos |
+| **Sprint 7** | RA2, RA3 | f) Se ha realizado el presupuesto económico correspondiente, d) Se han determinado los procedimientos de actuación o ejecución de las actividades | Sistema logros, recordatorios automáticos, estadísticas avanzadas |
+| **Sprint 8** | RA3, RA4 | h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución, a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones | Tests PHPUnit, optimización cálculos, debugging |
+| **Sprint 9** | RA4 | c) Se han aplicado indicadores de calidad a las actividades diseñadas en el proyecto, e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto | Dockerfile, docker-compose.yml, app fitness desplegada productiva |
 
 ### 📋 Product Backlog Detallado - FitnessTracker
 
@@ -660,219 +647,8 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 ### 🚀 **Más Desafiante**
 - **TiendaOnline** (por la lógica de e-commerce) -->
 
-### 📈 **Stack Técnico Unificado**
-- **Backend:** Laravel 10 + Blade + MySQL
-- **Frontend:** Bootstrap 5 + JavaScript Vanilla
-- **Deployment:** Docker + GitHub Actions
-- **Testing:** PHPUnit básico + testing manual
-- **Metodología:** 8 sprints de 3 semanas cada uno
 
-**🕒 Duración:** 7 meses (135-189 horas totales, 15-21h por sprint)  
-**🎓 Nivel:** Intermedio de 2º DAW  
-**📚 Enfoque:** Consolidación de Laravel + buenas prácticas**
 
-## 📋 **Tabla Resumen: Sprints vs RA por Proyecto (7 meses)**
 
-| Proyecto | Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 | Sprint 5 | Sprint 6 | Sprint 7 | Sprint 8 | Sprint 9 |
-|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| **TaskManager Pro** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
-| **BiblioTech** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
-| **EventosLocal** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
-| **TiendaOnline** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
-| **RecetasFáciles** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
-| **FitnessTracker** | RA1 | RA2 | RA2 | RA2 | RA2 | RA3 | RA3 | RA4 | RA4 |
 
-### 🎯 **Patrón de Evaluación por Sprint (7 meses):**
-- **Sprint 1:** **RA1** (Análisis del sector, identificación de necesidades, justificación del proyecto)
-- **Sprints 2-5:** **RA2** (Diseño completo del proyecto, arquitectura, documentación técnica)
-- **Sprints 6-7:** **RA3** (Planificación de ejecución, metodología ágil, gestión de recursos)
-- **Sprints 8-9:** **RA4** (Control y seguimiento, métricas, evaluación continua, entrega final)
 
-### 📊 **Distribución de Entregables por RA:**
-
-#### **RA1 - Sprint 1 (Análisis del Sector)**
-- Estudio de empresas del sector TIC
-- Identificación de necesidades del mercado
-- Justificación del proyecto elegido
-- Marco legal y ayudas disponibles
-- Plan inicial de trabajo
-
-#### **RA2 - Sprints 2-5 (Diseño del Proyecto)**
-- Documentación técnica completa
-- Estudio de viabilidad
-- Arquitectura del sistema
-- Especificaciones funcionales
-- Presupuesto y recursos
-
-#### **RA3 - Sprints 6-7 (Planificación de Ejecución)**
-- Metodología ágil implementada
-- Cronograma de desarrollo
-- Gestión de riesgos
-- Procedimientos de trabajo
-- Asignación de recursos
-
-#### **RA4 - Sprints 8-9 (Control y Seguimiento)**
-- Sistema de métricas implementado
-- Control de calidad
-- Gestión de cambios
-- Evaluación con usuarios
-- Documentación final
-
-### 📋 Product Backlog - TiendaOnline
-
-| Fase | Tarea | Tipo | Estimación | Prioridad |
-|------|--------|-------|-------------|------------|
-| **Análisis** | Análisis de e-commerce | Análisis | 4h | Alta |
-| **Análisis** | Diseño de base de datos | Análisis | 6h | Alta |
-| **Desarrollo** | CRUD productos | Desarrollo | 12h | Alta |
-| **Desarrollo** | CRUD categorías | Desarrollo | 8h | Alta |
-| **Desarrollo** | Sistema de usuarios | Desarrollo | 10h | Alta |
-| **Desarrollo** | Carrito de compra | Desarrollo | 16h | Alta |
-| **Desarrollo** | Proceso checkout | Desarrollo | 14h | Alta |
-| **Desarrollo** | Gestión de pedidos | Desarrollo | 12h | Media |
-| **Desarrollo** | Panel administración | Desarrollo | 10h | Media |
-| **Desarrollo** | Búsqueda productos | Desarrollo | 8h | Media |
-| **Desarrollo** | Subida imágenes | Desarrollo | 6h | Media |
-| **Desarrollo** | Reportes básicos | Desarrollo | 8h | Baja |
-| **Desarrollo** | Frontend responsive | Desarrollo | 14h | Alta |
-| **Pruebas** | Testing flujos compra | Prueba | 8h | Alta |
-| **Despliegue** | Docker setup | Despliegue | 4h | Alta |
-| **Documentación** | Manual administrador | Documentación | 6h | Media |
-
-### 📋 Product Backlog - RecetasFáciles
-
-| Fase | Tarea | Tipo | Estimación | Prioridad |
-|------|--------|-------|-------------|------------|
-| **Análisis** | Análisis red social | Análisis | 4h | Alta |
-| **Análisis** | Diseño base de datos | Análisis | 4h | Alta |
-| **Desarrollo** | Sistema usuarios | Desarrollo | 8h | Alta |
-| **Desarrollo** | CRUD recetas | Desarrollo | 14h | Alta |
-| **Desarrollo** | Subida de fotos | Desarrollo | 8h | Alta |
-| **Desarrollo** | Sistema valoraciones | Desarrollo | 10h | Media |
-| **Desarrollo** | Comentarios | Desarrollo | 8h | Media |
-| **Desarrollo** | Lista favoritos | Desarrollo | 6h | Media |
-| **Desarrollo** | Búsqueda avanzada | Desarrollo | 10h | Media |
-| **Desarrollo** | Feed recetas | Desarrollo | 8h | Media |
-| **Desarrollo** | Categorías | Desarrollo | 6h | Baja |
-| **Desarrollo** | Frontend bootstrap | Desarrollo | 12h | Alta |
-| **Pruebas** | Testing interacciones | Prueba | 6h | Media |
-| **Despliegue** | Containerización | Despliegue | 4h | Alta |
-| **Documentación** | Guía usuario | Documentación | 4h | Media |
-
-### 📋 Product Backlog - FitnessTracker
-
-| Fase | Tarea | Tipo | Estimación | Prioridad |
-|------|--------|-------|-------------|------------|
-| **Análisis** | Análisis métricas fitness | Análisis | 4h | Alta |
-| **Análisis** | Diseño base de datos | Análisis | 4h | Alta |
-| **Desarrollo** | Perfiles usuario | Desarrollo | 8h | Alta |
-| **Desarrollo** | CRUD entrenamientos | Desarrollo | 12h | Alta |
-| **Desarrollo** | Dashboard básico | Desarrollo | 10h | Alta |
-| **Desarrollo** | Gráficos Chart.js | Desarrollo | 12h | Media |
-| **Desarrollo** | Calendario fitness | Desarrollo | 8h | Media |
-| **Desarrollo** | Sistema objetivos | Desarrollo | 10h | Media |
-| **Desarrollo** | Logros y badges | Desarrollo | 8h | Baja |
-| **Desarrollo** | Estadísticas | Desarrollo | 8h | Media |
-| **Desarrollo** | Recordatorios | Desarrollo | 6h | Baja |
-| **Desarrollo** | Frontend responsive | Desarrollo | 12h | Alta |
-| **Pruebas** | Testing cálculos | Prueba | 6h | Media |
-| **Despliegue** | Docker y CI/CD | Despliegue | 4h | Alta |
-| **Documentación** | Manual fitness | Documentación | 4h | Media |
-
----
-### 🔧 **Consideraciones Técnicas**
-- Todos los proyectos incluyen **CI/CD** para automatización
-- **Testing** obligatorio en todas las fases
-- **Documentación** como parte integral del proyecto
-- **Escalabilidad** considerada desde el diseño
-
-### 📈 **Evaluación Continua**
-- **Revisiones semanales** con criterios específicos
-- **Entregas incrementales** cada 2 semanas
-- **Peer review** del código entre compañeros
-- **Presentaciones técnicas** regulares
-
-### 🌟 **Valor Añadido**
-Cada proyecto puede ser **portfolio real** para el estudiante, con potencial de:
-- Publicación en GitHub como proyecto destacado
-- Inclusión en CV como experiencia práctica
-- Base para trabajos fin de estudios superiores
-- Semilla para proyectos emprendedores
-
----
-
-## 🎓 **Metodología de Aprendizaje Progresivo**
-
-### 📅 **Evolución Tecnológica por Sprints**
-
-| Periodo | Sprints | Tecnologías | Objetivos de Aprendizaje |
-|---------|---------|-------------|--------------------------|
-| **Fase 1** | 1-2 | HTML5, CSS3, JavaScript, Bootstrap | Consolidar frontend, interactividad básica |
-| **Fase 2** | 3 | PHP vanilla, MySQL, phpMyAdmin | Introducir backend, persistencia datos |
-| **Fase 3** | 4-5 | Laravel básico/intermedio, Eloquent | Migrar a framework, ORM, arquitectura MVC |
-| **Fase 4** | 6-7 | Laravel avanzado, Auth, AJAX | Funcionalidades completas, optimización UX |
-| **Fase 5** | 8-9 | Testing, Docker, despliegue | Calidad código, containerización, producción |
-
-### 🎯 **Ventajas de esta Metodología**
-
-#### ✅ **Para Estudiantes:**
-- **Progresión natural:** De lo conocido (HTML/CSS) a lo nuevo (Laravel/Docker)
-- **Confianza gradual:** Éxitos tempranos con tecnologías familiares
-- **Comprensión profunda:** Entender el "por qué" de los frameworks
-- **Portfolio incremental:** Cada sprint añade valor al proyecto
-
-#### ✅ **Para Docentes:**
-- **Flexibilidad temporal:** Adaptable al ritmo real de aprendizaje
-- **Evaluación granular:** RA específicos por cada fase tecnológica
-- **Soporte escalonado:** Más ayuda en fases nuevas (Laravel), menos en conocidas (HTML)
-- **Recuperación posible:** Estudiantes rezagados pueden ponerse al día
-
-### 🔄 **Estrategia de Transición**
-
-#### **Sprints 1-2: Consolidación Frontend**
-- Reforzar HTML5, CSS3, JavaScript
-- Introducir Bootstrap 5 y responsive design
-- Simulación de datos con LocalStorage/arrays JS
-- **Objetivo:** Confianza y competencia en frontend
-
-#### **Sprint 3: Puente Backend**
-- PHP básico para conectar con conocimiento previo
-- MySQL directo para entender persistencia
-- CRUD manual para valorar después las facilidades de Laravel
-- **Objetivo:** Comprender la lógica backend sin complejidad framework
-
-#### **Sprints 4-5: Adopción Laravel**
-- Migración gradual del código PHP vanilla
-- Comparar antes/después para apreciar ventajas
-- Introducir conceptos MVC paso a paso
-- **Objetivo:** Adopción natural del framework
-
-#### **Sprints 6-7: Dominio Laravel**
-- Funcionalidades avanzadas cuando ya dominan lo básico
-- Autenticación, middleware, optimizaciones
-- **Objetivo:** Competencia profesional en Laravel
-
-#### **Sprints 8-9: Profesionalización**
-- Testing, Docker, despliegue cuando el código funciona
-- Documentación y presentación profesional
-- **Objetivo:** Preparación para entorno laboral
-
-### 📚 **Recursos de Apoyo Sugeridos**
-
-#### **Sprint 1-2:** Documentación frontend
-- MDN Web Docs, Bootstrap documentation
-- Tutoriales JavaScript interactivos
-
-#### **Sprint 3:** PHP básico
-- PHP.net documentation
-- Tutoriales MySQL básicos
-
-#### **Sprint 4-5:** Laravel learning
-- Laravel documentation, Laracasts
-- Tutoriales migración PHP → Laravel
-
-#### **Sprint 6-9:** Laravel avanzado
-- Laravel ecosystem (testing, deployment)
-- Docker básico para developers
-
----

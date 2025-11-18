@@ -65,7 +65,7 @@ Este documento presenta la planificación general de los **Sprint Reviews** a lo
 | **RA Predominantes** | RA3 (Planificación), RA4 (Seguimiento y control) |
 
 ---
-
+<!-- 
 ## 🎭 Formato de los Sprint Reviews
 
 ### 📋 Estructura Recomendada (1-2 horas)
@@ -99,7 +99,7 @@ Cada Sprint Review debe seguir esta estructura:
 6. **Planning del Siguiente Sprint** (10-15 min)
    - Presentación de objetivos del próximo sprint
    - Distribución de tareas
-   - Dudas y aclaraciones
+   - Dudas y aclaraciones -->
 
 ---
 
@@ -176,20 +176,6 @@ Cada Sprint Review debe seguir esta estructura:
 
 ---
 
-## 📅 Calendario Académico Referencial
-
-### Curso 2024-2025 (Ejemplo)
-
-| Periodo | Fechas Aproximadas | Sprints | Observaciones |
-|---------|-------------------|---------|---------------|
-| **1º Trimestre** | Septiembre - Diciembre | Sprint 1-3 | Inicio con HTML/CSS/JS<br>Finaliza con PHP básico |
-| **Vacaciones Navidad** | 23 Dic - 7 Ene | - | Pausa académica |
-| **2º Trimestre** | Enero - Marzo | Sprint 4-6 | Laravel completo<br>Funcionalidades principales |
-| **Semana Santa** | Variable (Marzo/Abril) | - | Posible ajuste de calendario |
-| **3º Trimestre** | Abril - Junio | Sprint 7-9 | Testing y despliegue<br>Defensa proyecto en Junio |
-
----
-
 ## 👥 Roles en los Sprint Reviews
 
 ### 🎓 Rol del Profesor (Product Owner)
@@ -217,7 +203,7 @@ Cada Sprint Review debe seguir esta estructura:
 - Colaboran en la retrospectiva
 
 ---
-
+<!-- 
 ## 💡 Consejos para Sprint Reviews Exitosos
 
 ### ✅ Preparación Previa
@@ -239,11 +225,11 @@ Cada Sprint Review debe seguir esta estructura:
 1. **Documenta Feedback**: Anota todas las sugerencias
 2. **Actualiza Backlog**: Añade nuevas historias si es necesario
 3. **Planifica Mejoras**: Prioriza feedback para próximo sprint
-4. **Celebra Logros**: Reconoce el trabajo realizado
+4. **Celebra Logros**: Reconoce el trabajo realizado -->
 
 ---
 
-## 📚 Recursos Adicionales
+<!-- ## 📚 Recursos Adicionales
 
 ### 🔗 Enlaces Útiles
 
@@ -315,7 +301,67 @@ Cada Sprint Review debe seguir esta estructura:
 **Start (Empezar a hacer):** [Qué empezar]
 **Stop (Dejar de hacer):** [Qué dejar]
 **Continue (Seguir haciendo):** [Qué mantener]
+``` -->
+
+---
+
+## 📋 Tabla Resumen: Relación Sprints con RA's
+
+Esta tabla muestra de forma general la **relación entre los 9 sprints y los Resultados de Aprendizaje (RA)** del módulo de Proyecto Intermodular, aplicable a todos los proyectos independientemente de su temática específica.
+
+| Sprint | Semanas | Título del Sprint | RA Principales | Criterios de Evaluación Trabajados | Entregables Clave | Peso RA |
+|--------|---------|-------------------|----------------|-------------------------------------|-------------------|---------|
+| **Sprint 1** | 1-3 | Análisis, diseño UI y modelo E/R | **RA1**<br>**RA2** | **RA1:**<br>• c) Necesidades más demandadas<br>• d) Necesidades del sector productivo<br>• e) Características específicas del proyecto<br>• f) Aspectos a incluir en el proyecto<br>• i) Guión de trabajo<br><br>**RA2:**<br>• h) Documentación de diseño | • Análisis de requisitos<br>• Wireframes y mockups<br>• Modelo E/R completo<br>• Documentación inicial | RA1: ⭐⭐⭐<br>RA2: ⭐⭐ |
+| **Sprint 2** | 4-6 | Maquetación frontend con HTML/CSS/JS | **RA1**<br>**RA2** | **RA1:**<br>• f) Aspectos a incluir en el proyecto<br><br>**RA2:**<br>• h) Documentación de diseño | • Interfaz estática responsive<br>• Frontend interactivo JS<br>• Validaciones cliente | RA1: ⭐⭐<br>RA2: ⭐⭐ |
+| **Sprint 3** | 7-9 | Backend PHP y base de datos | **RA2** | **RA2:**<br>• a) Recopilación de información<br>• b) Estudio de viabilidad técnica<br>• c) Identificación de fases del proyecto | • Base de datos MySQL<br>• CRUD PHP funcional<br>• Integración frontend-backend | RA2: ⭐⭐⭐ |
+| **Sprint 4** | 10-12 | Migración a Laravel | **RA2**<br>**RA3** | **RA2:**<br>• a) Recopilación de información<br><br>**RA3:**<br>• a) Secuenciación de actividades | • Proyecto Laravel configurado<br>• Rutas y controladores<br>• Vistas Blade<br>• Modelos Eloquent | RA2: ⭐⭐⭐<br>RA3: ⭐⭐ |
+| **Sprint 5** | 13-15 | Eloquent, validaciones y funcionalidades | **RA2**<br>**RA3** | **RA2:**<br>• d) Objetivos y alcance<br>• i) Aspectos de control de calidad<br><br>**RA3:**<br>• d) Procedimientos de actuación | • Modelos con relaciones<br>• Validaciones robustas<br>• Funcionalidades principales<br>• Migrations y seeders | RA2: ⭐⭐⭐<br>RA3: ⭐⭐ |
+| **Sprint 6** | 16-18 | Autenticación, roles y features avanzadas | **RA2**<br>**RA3** | **RA2:**<br>• e) Previsión de recursos<br>• f) Presupuesto económico<br>• g) Necesidades de financiación<br><br>**RA3:**<br>• b) Recursos y logística<br>• c) Permisos y autorizaciones | • Sistema autenticación<br>• Gestión de roles<br>• Middleware seguridad<br>• Features específicas completas | RA2: ⭐⭐<br>RA3: ⭐⭐⭐ |
+| **Sprint 7** | 19-21 | Optimización UX y AJAX | **RA2**<br>**RA3** | **RA2:**<br>• f) Presupuesto económico<br><br>**RA3:**<br>• d) Procedimientos de actuación<br>• f) Planificación recursos y tiempos | • AJAX implementado<br>• UX optimizada<br>• Notificaciones/Features avanzadas<br>• Responsive verificado | RA2: ⭐<br>RA3: ⭐⭐⭐ |
+| **Sprint 8** | 22-24 | Testing y control de calidad | **RA3**<br>**RA4** | **RA3:**<br>• e) Riesgos y plan prevención<br>• h) Documentación implementación<br><br>**RA4:**<br>• a) Procedimiento de evaluación<br>• b) Indicadores de calidad<br>• c) Aplicación indicadores | • Tests unitarios<br>• Tests funcionales<br>• Cobertura > 70%<br>• Código optimizado<br>• Bugs resueltos | RA3: ⭐⭐<br>RA4: ⭐⭐⭐ |
+| **Sprint 9** | 25-27 | Dockerización y despliegue | **RA4** | **RA4:**<br>• c) Aplicación indicadores de calidad<br>• e) Documentación para evaluación<br>• f) Participación usuarios en evaluación<br>• g) Evaluación resultados proyecto | • Dockerfile y docker-compose<br>• Aplicación desplegada<br>• Documentación completa<br>• Presentación proyecto | RA4: ⭐⭐⭐ |
+
+### 📊 Resumen de Cobertura de RA por Sprint
+
+| RA | Sprints Principales | Sprints Secundarios | Intensidad Total |
+|----|---------------------|---------------------|------------------|
+| **RA1** - Identificar necesidades del sector | Sprint 1 (⭐⭐⭐) | Sprint 2 (⭐⭐) | **Alta en S1-S2** |
+| **RA2** - Diseñar proyectos relacionados | Sprint 3, 4, 5 (⭐⭐⭐) | Sprint 1, 2, 6, 7 (⭐⭐/⭐) | **Alta en S3-S6** |
+| **RA3** - Planificar la ejecución del proyecto | Sprint 6, 7 (⭐⭐⭐) | Sprint 4, 5, 8 (⭐⭐) | **Alta en S6-S8** |
+| **RA4** - Definir procedimientos de evaluación y control | Sprint 8, 9 (⭐⭐⭐) | - | **Alta en S8-S9** |
+
+### 🎯 Distribución Temporal de RA's
+
 ```
+Sprint:    1    2    3    4    5    6    7    8    9
+          ─────────────────────────────────────────────
+RA1:      ███  ██   -    -    -    -    -    -    -
+RA2:      ██   ██   ███  ███  ███  ██   █    -    -
+RA3:      -    -    -    ██   ██   ███  ███  ██   -
+RA4:      -    -    -    -    -    -    -    ███  ███
+```
+
+**Leyenda:**
+- `███` Alta intensidad (RA trabajado de forma principal)
+- `██` Media intensidad (RA trabajado de forma secundaria)
+- `█` Baja intensidad (RA trabajado puntualmente)
+- `-` No trabajado en ese sprint
+
+### 💡 Características de la Progresión
+
+**Progresión Pedagógica Lógica:**
+
+1. **Fase de Análisis (S1-S2)**: Predominio de **RA1** - Los alumnos identifican necesidades reales del sector y comienzan el diseño básico
+
+2. **Fase de Diseño y Desarrollo (S3-S6)**: Predominio de **RA2 y RA3** - Se profundiza en el diseño técnico y se planifica la ejecución con tecnologías profesionales
+
+3. **Fase de Calidad y Despliegue (S7-S9)**: Predominio de **RA3 y RA4** - Se optimiza, evalúa y despliega el proyecto con estándares de calidad profesional
+
+**Beneficios de esta distribución:**
+- ✅ Progresión natural del aprendizaje (análisis → diseño → implementación → evaluación)
+- ✅ Cada RA tiene tiempo suficiente para ser trabajado en profundidad
+- ✅ Los RA's se solapan gradualmente facilitando transiciones suaves
+- ✅ Todos los RA's oficiales del módulo quedan cubiertos completamente
 
 ---
 
