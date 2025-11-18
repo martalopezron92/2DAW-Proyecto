@@ -254,25 +254,30 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 | ID | Tarea | Descripción Específica | Sprint | Estimación | Prioridad |
 |----|-------|------------------------|--------|-------------|-----------|
-| T1 | Análisis procesos bibliotecarios | Estudio workflows biblioteca básicos: préstamos, devoluciones, usuarios | Sprint 1 | 4h | Alta |
-| T2 | Diseño base datos | E/R biblioteca: libros, usuarios, préstamos, multas básicas | Sprint 1 | 4h | Alta |
-| T3 | Configuración Laravel | Setup Laravel, autenticación multi-rol, seeders datos prueba | Sprint 1 | 10h | Alta |
-| T4 | CRUD Libros básico | Modelo libros: título, autor, ISBN, ubicación, estado disponibilidad | Sprint 2 | 8h | Alta |
-| T5 | Frontend gestión libros | Formularios libros, listado con búsqueda simple, validaciones | Sprint 2 | 8h | Alta |
-| T6 | Sistema usuarios biblioteca | Tipos usuario: socio, empleado. Perfiles con datos contacto | Sprint 3 | 6h | Alta |
-| T7 | Gestión perfiles | CRUD usuarios, asignación roles, validaciones formularios | Sprint 3 | 10h | Alta |
-| T8 | Sistema préstamos básico | Lógica préstamos: verificar disponibilidad, registrar préstamo | Sprint 4 | 10h | Alta |
-| T9 | Frontend préstamos | Interfaz préstamos: buscar libro, seleccionar usuario, confirmar | Sprint 4 | 6h | Alta |
-| T10 | Control devoluciones | Proceso devolución: marcar devuelto, calcular días retraso básico | Sprint 5 | 8h | Alta |
-| T11 | Cálculo multas simple | Algoritmo multas básico: días retraso × tarifa fija | Sprint 5 | 8h | Media |
-| T12 | Sistema reservas básico | Reservar libros no disponibles, notificación disponibilidad | Sprint 6 | 10h | Media |
-| T13 | Búsqueda catálogo | Búsqueda por título, autor, ISBN, filtros disponibilidad | Sprint 6 | 6h | Media |
-| T14 | Reportes bibliotecarios | Estadísticas básicas: libros prestados, usuarios activos | Sprint 7 | 8h | Baja |
-| T15 | Frontend bibliotecario | UX biblioteca: scanner códigos, atajos, pantallas trabajo | Sprint 7 | 8h | Media |
-| T16 | Frontend responsive | Optimización móvil, navegación táctil para tablets | Sprint 8 | 10h | Alta |
-| T17 | Testing lógica biblioteca | Tests: cálculos fechas, multas, disponibilidad, validaciones | Sprint 8 | 6h | Media |
-| T18 | Despliegue biblioteca | Docker, configuración producción, backup datos | Sprint 9 | 8h | Alta |
-| T19 | Documentación biblioteca | Manual bibliotecario, guía usuarios, procesos básicos | Sprint 9 | 8h | Media |
+| T1 | Análisis procesos bibliotecarios | Estudio workflows biblioteca: préstamos, devoluciones, catalogación | Sprint 1 | 4h | Alta |
+| T2 | Wireframes y diseño UI | Diseño mockups: catálogo, préstamos, panel admin con Figma/Balsamiq | Sprint 1 | 6h | Alta |
+| T3 | Modelo E/R biblioteca | Diagrama E/R: libros, usuarios, préstamos, multas, reservas | Sprint 1 | 8h | Alta |
+| T4 | Maquetación HTML catálogo | Estructura HTML semántica: listado libros, detalle, búsqueda | Sprint 2 | 6h | Alta |
+| T5 | Estilos CSS biblioteca | CSS Bootstrap responsive: cards libros, tablas, formularios | Sprint 2 | 6h | Alta |
+| T6 | JavaScript búsqueda | Filtrado dinámico catálogo, ordenación, simulación datos JS | Sprint 2 | 6h | Alta |
+| T7 | Base datos MySQL | Creación tablas MySQL, relaciones, índices, datos prueba | Sprint 3 | 6h | Alta |
+| T8 | CRUD PHP libros | Scripts PHP para Create, Read, Update, Delete libros con PDO | Sprint 3 | 6h | Alta |
+| T9 | Conexión frontend-backend | Integración formularios HTML con scripts PHP, validaciones | Sprint 3 | 6h | Alta |
+| T10 | Instalación Laravel | Setup Laravel, configuración .env, estructura proyecto biblioteca | Sprint 4 | 4h | Alta |
+| T11 | Migración a Blade | Convertir HTML a plantillas Blade, layouts, componentes catálogo | Sprint 4 | 8h | Alta |
+| T12 | Rutas y controladores | Rutas RESTful libros, controladores LibroController, UserController | Sprint 4 | 6h | Alta |
+| T13 | Modelos Eloquent | Modelos Libro, Usuario, Prestamo con relaciones y validaciones | Sprint 5 | 6h | Alta |
+| T14 | Sistema préstamos | Lógica préstamos Eloquent: disponibilidad, registro, devolución | Sprint 5 | 8h | Alta |
+| T15 | Cálculo multas | Algoritmo multas: días retraso × tarifa, gestión pagos | Sprint 5 | 4h | Media |
+| T16 | Autenticación Laravel | Laravel Breeze, login bibliotecario/socio, roles permisos | Sprint 6 | 8h | Alta |
+| T17 | Sistema reservas | Reservas libros no disponibles, notificaciones disponibilidad | Sprint 6 | 6h | Media |
+| T18 | Búsqueda avanzada | Búsqueda por título, autor, ISBN, filtros Ajax disponibilidad | Sprint 6 | 4h | Media |
+| T19 | Reportes estadísticas | Estadísticas: libros prestados, usuarios activos, multas | Sprint 7 | 8h | Media |
+| T20 | Optimización UX | Mejoras responsive, accesibilidad, navegación intuitiva | Sprint 7 | 8h | Alta |
+| T21 | Testing biblioteca | Tests unitarios préstamos, multas, validaciones PHPUnit | Sprint 8 | 8h | Media |
+| T22 | Debugging y calidad | Corrección bugs, logging, optimización queries biblioteca | Sprint 8 | 8h | Media |
+| T23 | Docker biblioteca | Dockerfile, docker-compose, containerización sistema | Sprint 9 | 8h | Alta |
+| T24 | Documentación final | Manual bibliotecario, guía usuarios, procesos gestión | Sprint 9 | 8h | Media |
 | **Documentación** | Manual bibliotecario | Documentación | 8h | Media |
 
 ---
@@ -344,25 +349,30 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 | ID | Tarea | Descripción Específica | Sprint | Estimación | Prioridad |
 |----|-------|------------------------|--------|-------------|-----------|
-| T1 | Análisis eventos comunitarios | Estudio tipos eventos locales básicos: culturales, deportivos, categorías | Sprint 1 | 4h | Alta |
-| T2 | Diseño base datos eventos | E/R: eventos, categorías, inscripciones, usuarios básicos | Sprint 1 | 4h | Alta |
-| T3 | Configuración Laravel eventos | Setup Laravel, autenticación usuarios/organizadores básica | Sprint 1 | 10h | Alta |
-| T4 | CRUD Eventos básico | Modelo eventos: título, descripción, fecha, ubicación texto, plazas | Sprint 2 | 8h | Alta |
-| T5 | Frontend gestión eventos | Formularios eventos, validación fechas, listado simple | Sprint 2 | 8h | Alta |
-| T6 | Sistema inscripciones | Lógica inscripciones: verificar plazas, registrar inscripción | Sprint 3 | 8h | Alta |
-| T7 | Frontend inscripciones | Interfaz inscripciones: formulario, confirmación simple | Sprint 3 | 8h | Alta |
-| T8 | Vista calendario básica | Calendario mensual con eventos, navegación fechas | Sprint 4 | 10h | Media |
-| T9 | Lista eventos | Vista cronológica eventos, filtro por proximidad | Sprint 4 | 6h | Media |
-| T10 | Búsqueda eventos | Búsqueda por texto, categoría, fecha básica | Sprint 5 | 8h | Media |
-| T11 | Filtros básicos | Filtros: fecha, categoría, disponibilidad plazas | Sprint 5 | 8h | Media |
-| T12 | Gestión imágenes | Subida imagen evento, mostrar en listado | Sprint 6 | 8h | Media |
-| T13 | Ubicaciones básicas | Texto ubicación, enlace Google Maps externo | Sprint 6 | 8h | Baja |
-| T14 | Notificaciones email | Avisos email: confirmación inscripción, recordatorios | Sprint 7 | 8h | Media |
-| T15 | Sistema valoraciones básico | Valorar eventos asistidos, puntuaciones simples | Sprint 7 | 8h | Baja |
-| T16 | Frontend eventos responsive | UX eventos: tarjetas responsive, navegación móvil | Sprint 8 | 10h | Alta |
-| T17 | Galería imágenes | Mostrar imágenes eventos, galería básica | Sprint 8 | 6h | Media |
-| T18 | Testing flujos eventos | Tests: inscripciones, límites plazas, validaciones | Sprint 9 | 8h | Alta |
-| T19 | Despliegue eventos | Docker, configuración producción, manual básico | Sprint 9 | 8h | Alta |
+| T1 | Análisis eventos comunitarios | Estudio tipos eventos locales: culturales, deportivos, sociales, categorización | Sprint 1 | 4h | Alta |
+| T2 | Wireframes eventos | Diseño mockups: listado eventos, detalle, inscripción, calendario | Sprint 1 | 6h | Alta |
+| T3 | Modelo E/R eventos | Diagrama E/R: eventos, categorías, inscripciones, usuarios, organizadores | Sprint 1 | 8h | Alta |
+| T4 | Maquetación HTML eventos | HTML semántico: cards eventos, formulario publicar, detalle evento | Sprint 2 | 6h | Alta |
+| T5 | Estilos CSS eventos | CSS Bootstrap: tarjetas, calendario visual, formularios responsive | Sprint 2 | 6h | Alta |
+| T6 | JavaScript calendario | Calendario interactivo JS, filtros fecha, simulación eventos | Sprint 2 | 6h | Alta |
+| T7 | Base datos MySQL eventos | Creación tablas: eventos, inscripciones, categorías, datos prueba | Sprint 3 | 6h | Alta |
+| T8 | CRUD PHP eventos | Scripts PHP para gestión eventos: crear, listar, editar, eliminar | Sprint 3 | 6h | Alta |
+| T9 | Inscripciones PHP | Lógica inscripciones PHP: verificar plazas, registrar, confirmar | Sprint 3 | 6h | Alta |
+| T10 | Instalación Laravel | Setup Laravel eventos, configuración, estructura proyecto | Sprint 4 | 4h | Alta |
+| T11 | Migración a Blade eventos | Convertir HTML a Blade, layouts, componentes eventos | Sprint 4 | 8h | Alta |
+| T12 | Rutas y controladores eventos | Rutas RESTful eventos, EventoController, InscripcionController | Sprint 4 | 6h | Alta |
+| T13 | Modelos Eloquent eventos | Modelos Evento, Inscripcion, Categoria con relaciones | Sprint 5 | 6h | Alta |
+| T14 | Sistema inscripciones Laravel | Lógica Eloquent: control plazas, inscripciones, validaciones | Sprint 5 | 8h | Alta |
+| T15 | Búsqueda y filtros | Búsqueda eventos: texto, categoría, fecha, ubicación con Ajax | Sprint 5 | 4h | Media |
+| T16 | Autenticación eventos | Laravel Breeze, roles organizador/participante, permisos | Sprint 6 | 8h | Alta |
+| T17 | Gestión imágenes eventos | Subida imágenes, galería eventos, optimización | Sprint 6 | 6h | Media |
+| T18 | Google Maps integración | Ubicaciones en mapa, marcadores eventos, enlace rutas | Sprint 6 | 4h | Baja |
+| T19 | Notificaciones email | Avisos: confirmación inscripción, recordatorios, cancelaciones | Sprint 7 | 8h | Media |
+| T20 | Sistema valoraciones | Valoraciones eventos asistidos, comentarios, puntuaciones | Sprint 7 | 8h | Baja |
+| T21 | Optimización UX eventos | Responsive final, navegación intuitiva, accesibilidad | Sprint 8 | 8h | Alta |
+| T22 | Testing eventos | Tests: inscripciones, límites, validaciones, flujos completos | Sprint 8 | 8h | Alta |
+| T23 | Docker eventos | Containerización aplicación, docker-compose, configuración | Sprint 9 | 8h | Alta |
+| T24 | Documentación eventos | Manual organizadores, guía usuarios, procesos gestión | Sprint 9 | 8h | Alta |
 
 ---
 
@@ -422,25 +432,30 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 | ID | Tarea | Descripción Específica | Sprint | Estimación | Prioridad |
 |----|-------|------------------------|--------|-------------|-----------|
-| T1 | Análisis requisitos e-commerce | Estudio flujos tienda básicos: catálogo, carrito, checkout simple | Sprint 1 | 4h | Alta |
-| T2 | Diseño base datos comercial | E/R: productos, categorías, usuarios, pedidos, carrito | Sprint 1 | 4h | Alta |
-| T3 | CRUD Productos y Categorías | Gestión catálogo: crear productos, categorías, precios, stock | Sprint 1 | 10h | Alta |
-| T4 | Sistema usuarios clientes | Registro clientes, perfiles básicos, autenticación | Sprint 2 | 6h | Alta |
-| T5 | Panel administración básico | Área admin: gestión productos básica, listado pedidos | Sprint 2 | 10h | Alta |
-| T6 | Carrito compra backend | Lógica carrito: agregar productos, calcular totales, sesiones | Sprint 3 | 8h | Alta |
-| T7 | Carrito compra frontend | Interfaz carrito: vista productos, cantidad, eliminar items | Sprint 3 | 8h | Alta |
-| T8 | Proceso checkout básico | Flujo compra: datos cliente, resumen pedido, confirmación | Sprint 4 | 10h | Alta |
-| T9 | Gestión pedidos simple | Estados pedidos básicos: pendiente, procesando, completado | Sprint 4 | 6h | Alta |
-| T10 | Búsqueda productos | Búsqueda por nombre, filtros categoría, disponibilidad | Sprint 5 | 8h | Media |
-| T11 | Panel admin completo | Gestión avanzada productos, reportes pedidos básicos | Sprint 5 | 8h | Media |
-| T12 | Gestión imágenes productos | Subida imagen producto, mostrar en catálogo | Sprint 6 | 8h | Media |
-| T13 | Reportes ventas básicos | Estadísticas: productos vendidos, ingresos básicos | Sprint 6 | 8h | Baja |
-| T14 | Frontend tienda responsive | UX e-commerce: navegación categorías, ficha producto móvil | Sprint 7 | 10h | Alta |
-| T15 | Optimización UX compra | Mejoras usabilidad: breadcrumbs, filtros, paginación | Sprint 7 | 6h | Media |
-| T16 | Testing flujos e-commerce | Tests: carrito, checkout, gestión stock básico | Sprint 8 | 8h | Alta |
-| T17 | Optimización rendimiento | Caché productos, índices BD básicos | Sprint 8 | 8h | Media |
-| T18 | Despliegue tienda | Docker tienda, configuración básica producción | Sprint 9 | 8h | Alta |
-| T19 | Documentación comercial | Manual administrador, guía configuración productos | Sprint 9 | 8h | Media |
+| T1 | Análisis requisitos e-commerce | Estudio flujos tienda: catálogo, carrito, checkout, gestión pedidos | Sprint 1 | 4h | Alta |
+| T2 | Wireframes tienda | Diseño mockups: home, catálogo, producto, carrito, checkout | Sprint 1 | 6h | Alta |
+| T3 | Modelo E/R comercial | Diagrama E/R: productos, categorías, usuarios, pedidos, carrito | Sprint 1 | 8h | Alta |
+| T4 | Maquetación HTML tienda | HTML semántico: catálogo, ficha producto, carrito, formularios | Sprint 2 | 6h | Alta |
+| T5 | Estilos CSS e-commerce | CSS Bootstrap: cards productos, carrito, checkout responsive | Sprint 2 | 6h | Alta |
+| T6 | JavaScript carrito | Carrito dinámico JS, agregar/eliminar productos, LocalStorage | Sprint 2 | 6h | Alta |
+| T7 | Base datos MySQL tienda | Creación tablas: productos, categorías, pedidos, datos prueba | Sprint 3 | 6h | Alta |
+| T8 | CRUD PHP productos | Scripts PHP para gestión catálogo: crear, listar, editar productos | Sprint 3 | 6h | Alta |
+| T9 | Carrito PHP sesiones | Lógica carrito PHP: sesiones, agregar items, calcular totales | Sprint 3 | 6h | Alta |
+| T10 | Instalación Laravel tienda | Setup Laravel, configuración, estructura proyecto e-commerce | Sprint 4 | 4h | Alta |
+| T11 | Migración a Blade tienda | Convertir HTML a Blade, layouts tienda, componentes productos | Sprint 4 | 8h | Alta |
+| T12 | Rutas y controladores | Rutas RESTful, ProductoController, PedidoController, CarritoController | Sprint 4 | 6h | Alta |
+| T13 | Modelos Eloquent tienda | Modelos Producto, Categoria, Pedido, LineaPedido con relaciones | Sprint 5 | 6h | Alta |
+| T14 | Sistema pedidos Laravel | Lógica Eloquent: gestión pedidos, estados, control stock | Sprint 5 | 8h | Alta |
+| T15 | Búsqueda y filtros | Búsqueda productos: texto, categoría, precio, disponibilidad | Sprint 5 | 4h | Media |
+| T16 | Autenticación tienda | Laravel Breeze, roles cliente/admin, panel administración | Sprint 6 | 8h | Alta |
+| T17 | Gestión imágenes productos | Subida múltiples imágenes, galería producto, optimización | Sprint 6 | 6h | Media |
+| T18 | Reportes ventas | Estadísticas: ventas por producto, ingresos, productos populares | Sprint 6 | 4h | Baja |
+| T19 | Proceso checkout completo | Checkout multi-paso: datos envío, resumen, confirmación pedido | Sprint 7 | 8h | Alta |
+| T20 | Optimización UX tienda | Mejoras navegación, filtros avanzados, paginación, breadcrumbs | Sprint 7 | 8h | Alta |
+| T21 | Testing e-commerce | Tests: carrito, checkout, stock, validaciones pedidos | Sprint 8 | 8h | Alta |
+| T22 | Optimización rendimiento | Caché productos, índices BD, queries optimizadas | Sprint 8 | 8h | Media |
+| T23 | Docker tienda | Containerización, docker-compose, configuración producción | Sprint 9 | 8h | Alta |
+| T24 | Documentación comercial | Manual administrador, guía productos, procesos gestión | Sprint 9 | 8h | Media |
 
 ### 📊 Relación Sprints con RA y Criterios de Evaluación - TiendaOnline
 
@@ -513,25 +528,30 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 | ID | Tarea | Descripción Específica | Sprint | Estimación | Prioridad |
 |----|-------|------------------------|--------|-------------|-----------|
-| T1 | Análisis red social culinaria | Estudio funciones básicas: perfiles, recetas, interacciones simples | Sprint 1 | 4h | Alta |
-| T2 | Diseño base datos social | E/R: usuarios, recetas, valoraciones, comentarios, favoritos | Sprint 1 | 4h | Alta |
-| T3 | Sistema perfiles usuarios | Registro usuarios, perfiles personalizados, foto perfil | Sprint 1 | 10h | Alta |
-| T4 | CRUD Recetas básico | Modelo recetas: ingredientes, pasos, dificultad, categorías | Sprint 2 | 8h | Alta |
-| T5 | Frontend recetas | Formulario recetas: ingredientes dinámicos, subida foto | Sprint 2 | 8h | Alta |
-| T6 | Sistema valoraciones | Rating estrellas (1-5), contador valoraciones simple | Sprint 3 | 6h | Media |
-| T7 | Sistema comentarios | CRUD comentarios en recetas, mostrar temporal | Sprint 3 | 10h | Media |
-| T8 | Lista favoritos | Agregar/quitar favoritos, vista favoritos usuario | Sprint 4 | 6h | Media |
-| T9 | Categorías recetas | Gestión categorías: postres, principales, vegetariano | Sprint 4 | 10h | Media |
-| T10 | Búsqueda recetas | Motor búsqueda: ingredientes, nombre, categoría | Sprint 5 | 8h | Media |
-| T11 | Feed básico | Timeline recetas: recientes, populares básico | Sprint 5 | 8h | Media |
-| T12 | Seguimiento usuarios | Seguir/dejar seguir usuarios, listas básicas | Sprint 6 | 8h | Baja |
-| T13 | Notificaciones básicas | Avisos: nuevos comentarios, valoraciones | Sprint 6 | 8h | Baja |
-| T14 | Frontend social responsive | UX social: feed visual, tarjetas recetas responsivas | Sprint 7 | 10h | Alta |
-| T15 | Optimización UX | Infinite scroll básico, búsqueda mejorada | Sprint 7 | 6h | Media |
-| T16 | Testing interacciones | Tests: comentarios, valoraciones, favoritos | Sprint 8 | 8h | Alta |
-| T17 | Optimización rendimiento | Caché básico, optimización queries principales | Sprint 8 | 8h | Media |
-| T18 | Despliegue comunidad | Docker, configuración social básica | Sprint 9 | 8h | Alta |
-| T19 | Documentación comunidad | Manual usuarios, guías contenido básicas | Sprint 9 | 8h | Media |
+| T1 | Análisis red social culinaria | Estudio funcionalidades: perfiles, recetas, interacciones, seguimiento | Sprint 1 | 4h | Alta |
+| T2 | Wireframes red social | Diseño mockups: feed, perfil, receta, formulario publicar | Sprint 1 | 6h | Alta |
+| T3 | Modelo E/R social | Diagrama E/R: usuarios, recetas, valoraciones, comentarios, favoritos | Sprint 1 | 8h | Alta |
+| T4 | Maquetación HTML recetas | HTML semántico: feed, card receta, perfil, formulario ingredientes | Sprint 2 | 6h | Alta |
+| T5 | Estilos CSS social | CSS Bootstrap: cards recetas, perfil usuario, feed responsive | Sprint 2 | 6h | Alta |
+| T6 | JavaScript interactivo | Feed dinámico JS, valoraciones estrellas, simulación datos recetas | Sprint 2 | 6h | Alta |
+| T7 | Base datos MySQL social | Creación tablas: usuarios, recetas, comentarios, favoritos, datos prueba | Sprint 3 | 6h | Alta |
+| T8 | CRUD PHP recetas | Scripts PHP para gestión recetas: crear, listar, editar, eliminar | Sprint 3 | 6h | Alta |
+| T9 | Comentarios y valoraciones PHP | Lógica PHP: agregar comentarios, calcular rating, gestionar favoritos | Sprint 3 | 6h | Alta |
+| T10 | Instalación Laravel social | Setup Laravel, configuración, estructura proyecto red social | Sprint 4 | 4h | Alta |
+| T11 | Migración a Blade social | Convertir HTML a Blade, layouts feed, componentes recetas | Sprint 4 | 8h | Alta |
+| T12 | Rutas y controladores social | Rutas RESTful, RecetaController, PerfilController, InteraccionController | Sprint 4 | 6h | Alta |
+| T13 | Modelos Eloquent social | Modelos Usuario, Receta, Comentario, Valoracion con relaciones | Sprint 5 | 6h | Alta |
+| T14 | Sistema interacciones | Lógica Eloquent: comentarios, valoraciones, favoritos, relaciones | Sprint 5 | 8h | Alta |
+| T15 | Feed personalizado | Algoritmo feed: recetas seguidos, populares, búsqueda avanzada | Sprint 5 | 4h | Media |
+| T16 | Autenticación social | Laravel Breeze, perfiles usuarios, edición perfil, foto avatar | Sprint 6 | 8h | Alta |
+| T17 | Sistema seguimiento | Seguir/dejar seguir usuarios, lista seguidores/seguidos | Sprint 6 | 6h | Media |
+| T18 | Notificaciones Laravel | Notificaciones: nuevos comentarios, valoraciones, seguidores | Sprint 6 | 4h | Baja |
+| T19 | Gestión imágenes recetas | Subida imágenes recetas, galería pasos, optimización | Sprint 7 | 8h | Alta |
+| T20 | Optimización UX social | Infinite scroll, búsqueda instantánea, navegación fluida | Sprint 7 | 8h | Alta |
+| T21 | Testing red social | Tests: interacciones, feed, valoraciones, comentarios | Sprint 8 | 8h | Alta |
+| T22 | Optimización social | Caché feed, índices BD, queries optimizadas | Sprint 8 | 8h | Media |
+| T23 | Docker comunidad | Containerización, docker-compose, configuración producción | Sprint 9 | 8h | Alta |
+| T24 | Documentación comunidad | Guía usuarios, normas comunidad, manual moderación | Sprint 9 | 8h | Media |
 
 ---
 
@@ -591,25 +611,30 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 
 | ID | Tarea | Descripción Específica | Sprint | Estimación | Prioridad |
 |----|-------|------------------------|--------|-------------|-----------|
-| T1 | Análisis métricas fitness | Estudio métricas básicas: tipos ejercicio, duración, calorías | Sprint 1 | 4h | Alta |
-| T2 | Diseño base datos fitness | E/R: usuarios_fitness, entrenamientos, ejercicios, objetivos | Sprint 1 | 4h | Alta |
-| T3 | Perfiles usuarios fitness | Registro con datos físicos: peso, altura, nivel actividad | Sprint 1 | 10h | Alta |
-| T4 | CRUD Entrenamientos | Gestión sesiones: fecha, duración, tipo, intensidad básica | Sprint 2 | 8h | Alta |
-| T5 | Catálogo ejercicios | Biblioteca ejercicios: cardio, fuerza, flexibilidad | Sprint 2 | 8h | Alta |
-| T6 | Dashboard principal | Vista resumen: entrenamientos semana, métricas básicas | Sprint 3 | 8h | Alta |
-| T7 | Métricas básicas | Cálculos: calorías totales, tiempo entrenado semanal | Sprint 3 | 8h | Media |
-| T8 | Gráficos progreso | Visualización básica con Chart.js: líneas temporales | Sprint 4 | 10h | Media |
-| T9 | Indicadores visuales | Barras progreso objetivos, medidores nivel | Sprint 4 | 6h | Media |
-| T10 | Sistema objetivos | Crear metas: peso objetivo, entrenamientos semanales | Sprint 5 | 8h | Media |
-| T11 | Calendario entrenamientos | Vista calendario con entrenamientos realizados | Sprint 5 | 8h | Media |
-| T12 | Sistema logros básico | Logros automáticos: racha entrenamientos, hitos básicos | Sprint 6 | 8h | Baja |
-| T13 | Recordatorios simples | Avisos básicos entrenamientos programados | Sprint 6 | 8h | Baja |
-| T14 | Estadísticas básicas | Análisis progreso: tendencias, comparativas semanales | Sprint 7 | 8h | Media |
-| T15 | Reportes simples | Resumen progreso, estadísticas mensuales básicas | Sprint 7 | 8h | Baja |
-| T16 | Frontend fitness responsive | UX deportiva: dashboard móvil, formularios rápidos | Sprint 8 | 10h | Alta |
-| T17 | Optimización UX fitness | Navegación rápida, widgets dashboard básicos | Sprint 8 | 6h | Media |
-| T18 | Testing métricas | Tests: cálculos calorías, progreso objetivos básicos | Sprint 9 | 8h | Alta |
-| T19 | Despliegue app fitness | Docker, configuración básica, documentación usuario | Sprint 9 | 8h | Alta |
+| T1 | Análisis métricas fitness | Estudio métricas: tipos ejercicio, duración, calorías, objetivos | Sprint 1 | 4h | Alta |
+| T2 | Wireframes app fitness | Diseño mockups: dashboard, registro entrenamiento, estadísticas | Sprint 1 | 6h | Alta |
+| T3 | Modelo E/R fitness | Diagrama E/R: usuarios, entrenamientos, ejercicios, objetivos, métricas | Sprint 1 | 8h | Alta |
+| T4 | Maquetación HTML dashboard | HTML semántico: dashboard principal, formulario entrenamiento, gráficos | Sprint 2 | 6h | Alta |
+| T5 | Estilos CSS fitness | CSS Bootstrap: dashboard deportivo, cards estadísticas, responsive | Sprint 2 | 6h | Alta |
+| T6 | JavaScript métricas | Cálculos JS: calorías, progreso, gráficos Chart.js, simulación datos | Sprint 2 | 6h | Alta |
+| T7 | Base datos MySQL fitness | Creación tablas: usuarios, entrenamientos, ejercicios, objetivos, datos prueba | Sprint 3 | 6h | Alta |
+| T8 | CRUD PHP entrenamientos | Scripts PHP para gestión entrenamientos: registrar, listar, editar | Sprint 3 | 6h | Alta |
+| T9 | Cálculos métricas PHP | Lógica PHP: calorías quemadas, progreso objetivos, estadísticas | Sprint 3 | 6h | Alta |
+| T10 | Instalación Laravel fitness | Setup Laravel, configuración, estructura proyecto fitness | Sprint 4 | 4h | Alta |
+| T11 | Migración a Blade fitness | Convertir HTML a Blade, layouts dashboard, componentes métricas | Sprint 4 | 8h | Alta |
+| T12 | Rutas y controladores fitness | Rutas RESTful, EntrenamientoController, ObjetivoController, MetricaController | Sprint 4 | 6h | Alta |
+| T13 | Modelos Eloquent fitness | Modelos Entrenamiento, Ejercicio, Objetivo, Metrica con relaciones | Sprint 5 | 6h | Alta |
+| T14 | Sistema objetivos Laravel | Lógica Eloquent: crear objetivos, calcular progreso, validaciones | Sprint 5 | 8h | Alta |
+| T15 | Dashboard dinámico | Dashboard Ajax: actualización tiempo real, métricas actuales | Sprint 5 | 4h | Media |
+| T16 | Autenticación fitness | Laravel Breeze, perfiles fitness: datos físicos, nivel actividad | Sprint 6 | 8h | Alta |
+| T17 | Gráficos avanzados | Visualizaciones Chart.js: líneas progreso, barras comparativas | Sprint 6 | 6h | Media |
+| T18 | Calendario entrenamientos | Vista calendario entrenamientos, planificación semanal | Sprint 6 | 4h | Media |
+| T19 | Sistema logros gamificación | Logros automáticos: rachas, hitos, medallas, puntos motivación | Sprint 7 | 8h | Media |
+| T20 | Estadísticas avanzadas | Análisis tendencias, comparativas periodos, reportes progreso | Sprint 7 | 8h | Media |
+| T21 | Optimización UX fitness | Interface responsive, widgets personalizables, navegación rápida | Sprint 8 | 8h | Alta |
+| T22 | Testing fitness | Tests: cálculos calorías, progreso objetivos, métricas | Sprint 8 | 8h | Alta |
+| T23 | Docker app fitness | Containerización, docker-compose, configuración producción | Sprint 9 | 8h | Alta |
+| T24 | Documentación fitness | Manual usuario, guía entrenamientos, plan uso app | Sprint 9 | 8h | Alta |
 
 ---
 
