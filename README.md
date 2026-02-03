@@ -166,3 +166,48 @@ g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de co
 **Total:** 100%
 
 ---
+
+## 📊 Relación de Criterios de Evaluación por Entregas
+
+En cada entrega, se trabajarán criterios de evaluación específicos asociados a los Resultados de Aprendizaje. Todos los Criterios de Evaluación de cada RA tienen idéntico valor.
+
+Así queda la relación por criterios de evaluación y entregas:
+
+|  | **Primera Evaluación** |  | **Segunda Evaluación** |  |  |  |  | **Tercera Evaluación** |  |  |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  | **EV1** | **EV2** | **EV3** | **EV4** | **EV5** | **EV6** | **EV7** | **EV8** | **EV9** | **PP** |
+| **CE.1.a** | X | X |  |  |  |  |  |  |  |  |
+| **CE.1.b** | X | X |  |  |  |  |  |  |  |  |
+| **CE.1.c** | X |  |  |  |  |  |  |  |  |  |
+| **CE.1.d** | X | X |  |  |  |  |  |  |  |  |
+| **CE.1.e** | X |  |  |  |  |  |  |  |  |  |
+| **CE.1.f** | X |  |  |  |  |  |  |  |  |  |
+| **CE.1.g** | X | X |  |  |  |  |  |  |  |  |
+| **CE.1.h** | X |  |  |  |  |  |  |  |  |  |
+| **CE.1.i** | X |  |  |  |  |  |  |  |  |  |
+| **CE.2.a** |  |  |  | X |  | X |  |  |  |  |
+| **CE.2.b** |  |  |  | X |  |  |  |  |  |  |
+| **CE.2.c** |  |  |  | X |  | X |  |  |  |  |
+| **CE.2.d** |  |  |  |  |  | X |  | X |  |  |
+| **CE.2.e** |  |  |  |  |  | X |  | X |  |  |
+| **CE.2.f** |  |  |  |  |  | X |  |  |  |  |
+| **CE.2.g** |  |  |  |  |  |  |  |  | X |  |
+| **CE.2.h** |  |  |  | X |  | X |  |  |  |  |
+| **CE.2.i** |  |  |  |  |  | X | X | X |  |  |
+| **CE.3.a** |  |  |  |  |  |  |  |  |  | X | X | X |
+| **CE.3.b** |  |  |  |  |  |  |  |  |  | X |  | X |
+| **CE.3.c** |  |  |  |  |  |  |  |  |  |  |  | X |
+| **CE.3.d** |  |  |  |  |  |  |  |  |  | X |  | X |
+| **CE.3.e** |  |  |  |  |  |  |  |  |  |  |  | X |
+| **CE.3.f** |  |  |  |  |  |  |  |  |  | X |  | X |
+| **CE.3.g** |  |  |  |  |  |  |  |  |  |  |  | X |
+| **CE.3.h** |  |  |  |  |  |  |  |  |  | X | X | X |
+| **CE.4.a** |  |  |  |  |  |  |  |  |  |  |  | X |
+| **CE.4.b** |  |  |  |  |  |  |  |  |  |  |  | X |
+| **CE.4.c** |  |  |  |  |  |  |  |  |  |  |  | X |
+| **CE.4.d** |  |  |  |  |  |  |  |  |  |  |  | X |
+| **CE.4.e** |  |  |  |  |  |  |  |  |  |  |  | X |
+| **CE.4.f** |  |  |  |  |  |  |  |  |  |  |  | X |
+| **CE.4.g** |  |  |  |  |  |  |  |  |  |  |  | X |
+
+---
